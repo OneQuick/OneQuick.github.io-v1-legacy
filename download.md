@@ -14,4 +14,4 @@ active: download
 
 AHK版本无界面，修改功能需要编辑配置文件。  
 
-<br><br><span style="color: rgba(0,0,0,0.7);">神秘新版本开发中...</span>
+<br><br><span style="color: rgba(0,0,0,0.7);">新版本正在努力开发中...</span>

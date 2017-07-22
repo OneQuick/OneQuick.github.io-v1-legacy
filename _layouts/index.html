@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ page.title }}</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
     <meta name="viewport" content="width=device-width">
+    <title>{{ page.title }}</title>
 
 	<!-- 新 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -20,11 +18,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
   <body>
     <div class="wrapper">
     <header>
-		<nav class="container" role="navigation" style="margin-top: 20px; margin-bottom: 40px;">
+		<nav class="container" role="navigation" style="margin-top: 30px; margin-bottom: 40px;">
 			 <ul class="nav navbar-nav" style="margin: 4px 0 0 5px;">
 			 	<a href="//onequick.org"><span style="font-size: 28px; font-weight: bold; color: #585858;">OneQuick</span><span style="font-size: 20px; color: #787878; ">.org</span></a>
 			 </ul>
@@ -33,7 +33,7 @@
 		        <li class="{%if page.active=='index'%}active{%endif%}"><a href="/">简介</a></li>
 		        <li class="{%if page.active=='download'%}active{%endif%}"><a href="/download">下载</a></li>
 		        <li class="{%if page.active=='support'%}active{%endif%}"><a href="/support">支持</a></li>
-		        <li class="{%if page.active=='discuss'%}active{%endif%}"><a href="/discuss">留言板</a></li>
+		        <li><a href="https://github.com/OneQuick/bbs/issues">留言板↗</a></li>
 		      </ul>
 		</nav>
     </header>
@@ -42,7 +42,7 @@
       </div>
       <footer class="footer">
       	<div class="container">
-      		<p class="text-muted">© 2016 OneQuick. All Rights Reserved
+      		<p class="text-muted">© 2016 - 2017 OneQuick. All Rights Reserved
       		<a href="https://github.com/OneQuick/OneQuick.github.io" class="pull-right">hosted on GitHub</a>
       		</p>
       	</div>

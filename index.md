@@ -11,7 +11,7 @@ active: index
 <button class="btn btn-primary" style="font-size: 18px; background-color: #008dfd; padding: 6px 25px;">下载页面</button>
 </a></div>
 
-<div class="text-center" style="color: rgba(104, 104, 104, 0.77);">AHK版本可用、<strong>全新版本</strong>开发中.</div>
+<div class="text-center" style="color: rgba(104, 104, 104, 0.77);">AHK版本可用、<strong>全新版本</strong>蓄力中.</div>
 
 <div class="row" style="margin-top: 100px;">
 <div class="col-md-2"></div>

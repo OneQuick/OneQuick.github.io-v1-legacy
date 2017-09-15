@@ -1,0 +1,6 @@
+lite:
+  version: "0.9.1.0"
+  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.9.0.38413.x64.zip
+  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.9.0.38412.x86.zip
+  launch: OneQuick.exe
+  note: alpha-version

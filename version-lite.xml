@@ -1,7 +1,11 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="utf-8"?>
-<VersionUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>0.99.9.32297</Version>
-  <DownloadZipUrl>https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.v0.9.0.15449.zip</DownloadZipUrl>
-  <LaucherName>OneQuick Lite.exe</LaucherName>
-  <ReleaseNote>balabala</ReleaseNote>
+<VersionUpdate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>{{ site.lite.version }}</Version>
+  <DownloadZipUrlX86>{{ site.lite.x86url }}</DownloadZipUrlX86>
+  <DownloadZipUrlX64>{{ site.lite.x64url }}</DownloadZipUrlX64>
+  <LaucherName>{{ site.lite.launch }}</LaucherName>
+  <ReleaseNote>{{ site.lite.note }}</ReleaseNote>
 </VersionUpdate>

@@ -3,7 +3,7 @@ title: OneQuick - 下载
 layout: index
 active: download
 ---
-### OneQuick (AHK)
+### OneQuick (AHK版)
 
 项目主页: <a href="https://github.com/XUJINKAI/OneQuick" target="_blank">github.com/XUJINKAI/OneQuick</a>  
 

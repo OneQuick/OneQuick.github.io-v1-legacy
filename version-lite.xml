@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<VersionUpdate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Version>0.9.1.7892</Version>
+<VersionUpdate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>0.99.9.32297</Version>
+  <DownloadZipUrl>https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.v0.9.0.15449.zip</DownloadZipUrl>
+  <LaucherName>OneQuick Lite.exe</LaucherName>
+  <ReleaseNote>balabala</ReleaseNote>
 </VersionUpdate>

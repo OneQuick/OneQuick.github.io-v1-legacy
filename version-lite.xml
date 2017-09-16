@@ -7,5 +7,7 @@ layout: null
   <DownloadZipUrlX86>{{ site.lite.x86url }}</DownloadZipUrlX86>
   <DownloadZipUrlX64>{{ site.lite.x64url }}</DownloadZipUrlX64>
   <LaucherName>{{ site.lite.launch }}</LaucherName>
-  <ReleaseNote>{{ site.lite.note }}</ReleaseNote>
+  <ReleaseNote1>{{ site.lite.v1note }}</ReleaseNote1>
+  <ReleaseNote2>{{ site.lite.v2note }}</ReleaseNote2>
+  <ReleaseNote3>{{ site.lite.v3note }}</ReleaseNote3>
 </VersionUpdate>

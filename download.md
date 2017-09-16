@@ -18,10 +18,12 @@ active: download
 
 ### OneQuick Lite (WPF版) 预览版
 
-<!-- 反馈：<a href="https://github.com/OneQuick/OneQuick.net/issues">github.com/OneQuick/OneQuick.net/issues</a> -->
+<!-- <p>反馈：<a href="https://github.com/OneQuick/OneQuick.net/issues" target="_blank">github.com/OneQuick/OneQuick.net/issues</a></p> -->
 
-<p>{{ site.lite.version }}: 
-<a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary">X64</button></a>
-<a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary">X86</button></a>
+<p>对预览版的看法请<a href="http://weibo.com/6345080029/Fm4khv8rq" target="_blank">在微博下留言</a></p>
+
+<p>
+{{ site.lite.version }}: 
+<a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary">64位</button></a>
+<a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary">32位</button></a>
 </p>
-<p>更新信息：{{ site.lite.note }}</p>

@@ -1,6 +1,6 @@
 lite:
-  version: "0.9.2"
-  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/v0.9/OneQuick.Lite.0.9.2.42619.x86.zip
-  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/v0.9/OneQuick.Lite.0.9.2.42621.x64.zip
+  version: "0.9.4"
+  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/v0.9/OneQuick.Lite.0.9.2.42619.x86x.zip
+  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/v0.9/OneQuick.Lite.0.9.2.42621.x64x.zip
   launch: OneQuick.exe
   note: 预览版，用于测试自动更新，请勿提交任何issue。

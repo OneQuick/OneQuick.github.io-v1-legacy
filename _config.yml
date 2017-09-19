@@ -1,8 +1,9 @@
 lite:
   version: "0.10.1"
+  size: 228kb
   x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.10.1.4191.x86.zip
   x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.10.1.4192.x64.zip
   launch: OneQuick.exe
   v1note: 预览版。
   v2note: 完善语言翻译与功能稳定性。
-  v3note: 修复一个不能更新的bug
+  v3note: 修复一个自动更新时的bug

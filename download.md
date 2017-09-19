@@ -23,7 +23,7 @@ active: download
 <p>对预览版的看法请<a href="http://weibo.com/onequick" target="_blank">在微博下留言</a></p>
 
 <p>
-{{ site.lite.version }} （224kb）
+{{ site.lite.version }} （{{ site.lite.size }}）
 <a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary">64位</button></a>
 <a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary">32位</button></a>
 </p>

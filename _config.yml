@@ -1,9 +1,9 @@
 lite:
-  version: "0.10.1"
-  size: 228kb
-  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.10.1.4191.x86.zip
-  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.10.1.4192.x64.zip
+  version: "0.11.0"
+  size: 230kb
+  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.11.0.2869.x86.zip
+  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.11.0.2870.x64.zip
   launch: OneQuick.exe
-  v1note: 预览版。
-  v2note: 完善语言翻译与功能稳定性。
-  v3note: 修复一个自动更新时的bug
+  v1note: 预览版
+  v2note: 将配置文件位置从LocalAppData改到用户文档目录；其他改进和bug修复
+  v3note: 

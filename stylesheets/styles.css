@@ -43,14 +43,14 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 50px;
+  height: 90px;
   background-color: #f5f5f5;
 }
 
@@ -58,4 +58,42 @@ body {
 p.text-muted {
   font-size: 14px;
   margin-top: 16px;
+}
+
+
+/* index */
+
+.download {
+  background-color: #008dfd;
+}
+
+h1 {
+  font-size: 3.8em;
+  margin: 0 0 .3em;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.desc-section {
+  margin-top: 6em;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 1em 0 .5em 0;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.desc-section p {
+  text-align: center;
+  margin: 10px 10%;
+  line-height: 1.6;
+  color: #777;
+}
+
+.desc-section img {
+  max-width: 700px;
+  margin: 30px auto 0 auto;
 }

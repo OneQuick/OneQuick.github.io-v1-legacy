@@ -18,7 +18,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
   <body>
@@ -26,14 +26,12 @@
     <header>
 		<nav class="container" role="navigation" style="margin-top: 30px; margin-bottom: 40px;">
 			 <ul class="nav navbar-nav" style="margin: 4px 0 0 5px;">
-			 	<a href="//onequick.org"><span style="font-size: 28px; font-weight: bold; color: #585858;">OneQuick</span><span style="font-size: 20px; color: #787878; ">.org</span></a>
+			 	<a href="//onequick.org"><span style="font-size: 28px; font-weight: normal; color: rgba(60, 60, 60, 0.85);">OneQuick</span><span style="font-size: 20px; color: rgba(120, 120, 120, 0.65);">.org</span></a>
 			 </ul>
 
 		      <ul class="nav navbar-nav navbar-right">
 		        <li class="{%if page.active=='index'%}active{%endif%}"><a href="/">简介</a></li>
 		        <li class="{%if page.active=='download'%}active{%endif%}"><a href="/download">下载</a></li>
-		        <li class="{%if page.active=='support'%}active{%endif%}"><a href="/support">支持</a></li>
-		        <li><a href="https://github.com/OneQuick/bbs/issues">留言板↗</a></li>
 		      </ul>
 		</nav>
     </header>
@@ -42,8 +40,23 @@
       </div>
       <footer class="footer">
       	<div class="container">
-      		<p class="text-muted">© 2016 - 2017 OneQuick. All Rights Reserved
-      		<a href="https://github.com/OneQuick/OneQuick.github.io" class="pull-right">hosted on GitHub</a>
+          <p class="text-muted">
+
+            <a href="/feedback" target="_blank">反馈</a>
+            <span style="font-weight: 600;">·</span>
+            <a href="/help" target="_blank">帮助</a>
+            <span class="pull-right">
+              <a href="http://weibo.com/onequick" target="_blank"><i class="fa fa-weibo" style="color: #e6162d;"></i>
+                <span class="text-muted">OneQuick工具</span>
+              </a>
+              <span style="font-weight: 600;">·</span>
+              <a href="http://xujinkai.net" target="_blank">作者</a>
+            </span>
+          </p>
+      		<p class="text-muted">© 2016 - 2017 OneQuick.org. All Rights Reserved
+            <span class="pull-right">
+              <a href="https://github.com/OneQuick/OneQuick.github.io" target="_blank">hosted on GitHub</a>
+            </span>
       		</p>
       	</div>
       </footer>

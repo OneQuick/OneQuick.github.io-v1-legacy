@@ -9,18 +9,22 @@ active: index
 <div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">致力于解决日常使用电脑时遇到的不便</div>
 
 <div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
-<a href="/download">
-<button class="btn btn-primary download" style="font-size: 16px; padding: 6px 25px;">下载 OneQuick</button>
-</a>
-<p style="color: #777; margin-top: 10px; font-size: 14px;">适用于Windows 10/8/7，现已推出应用商店版</p>
-
-<p>
-	<span style="color: #777;">关注：</span>
-	<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
-		<i class="fa fa-weibo" style="color: #e6162d;"></i>
-		<span style="color: #393939;">OneQuick工具</span>
+	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">
+		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
+			<img src="/img/microsoft-logo.png" style="height: 16px; margin-top: -2px;"> 应用商店版
+		</button>
 	</a>
-</p>
+	<p style="margin-top: 14px;">
+		<a href="/download" style="color: #333; font-weight: 600; text-decoration: none; line-height: 1.6; font-size: 13px;">下载其他版本</a>
+	</p>
+
+	<p>
+		<span style="color: #777;">关注：</span>
+		<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
+			<i class="fa fa-weibo" style="color: #e6162d;"></i>
+			<span style="color: #393939;">OneQuick工具</span>
+		</a>
+	</p>
 </div>
 
 

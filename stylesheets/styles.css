@@ -67,6 +67,10 @@ p.text-muted {
   background-color: #008dfd;
 }
 
+.ms-store-dl {
+  background-color: rgba(0, 120, 215, 1);
+}
+
 h1 {
   font-size: 3.8em;
   margin: 0 0 .3em;

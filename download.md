@@ -10,7 +10,7 @@ active: download
 	<p>
 		<span style="font-size: 22px;">OneQuick Lite</span>
 		<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank"><button type="button" class="btn btn-primary ms-store-dl">
-			<img src="/img/microsoft-logo.png" style="height: 16px; margin-top: -2px;"> 商店版
+			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 商店版
 		</button></a>
 		<a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary download">64位</button></a>
 		<a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary download">32位</button></a>

@@ -11,7 +11,7 @@ active: index
 <div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
 	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">
 		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			<img src="/img/microsoft-logo.png" style="height: 16px; margin-top: -2px;"> 应用商店版
+			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 应用商店版
 		</button>
 	</a>
 	<p style="margin-top: 14px;">

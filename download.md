@@ -6,7 +6,7 @@ active: download
 
 <div class="container" style=" max-width: 768px;">
 
-<div class="row" style="width: 768px; margin: 50px 0;">
+<div class="row" style="margin: 50px 0;">
 	<p>
 		<span style="font-size: 22px;">OneQuick Lite</span>
 		<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank"><button type="button" class="btn btn-primary ms-store-dl">

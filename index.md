@@ -12,7 +12,7 @@ active: index
 <a href="/download">
 <button class="btn btn-primary download" style="font-size: 16px; padding: 6px 25px;">下载 OneQuick</button>
 </a>
-<p style="color: #777; margin-top: 10px; font-size: 14px;">Windows 10/8/7可用，现已推出WPF版</p>
+<p style="color: #777; margin-top: 10px; font-size: 14px;">适用于Windows 10/8/7，现已推出应用商店版</p>
 
 <p>
 	<span style="color: #777;">关注：</span>

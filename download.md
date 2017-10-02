@@ -9,6 +9,9 @@ active: download
 <div class="row" style="width: 768px; margin: 50px 0;">
 	<p>
 		<span style="font-size: 22px;">OneQuick Lite</span>
+		<a href="https://www.microsoft.com/zh-cn/store/p/onequick-lite/9pfn5k6qxt46" target="_blank"><button type="button" class="btn btn-primary download">
+			<img src="/img/microsoft-logo.png" style="height: 16px;"> 商店版
+		</button></a>
 		<a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary download">64位</button></a>
 		<a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary download">32位</button></a>
 	</p>
@@ -16,6 +19,9 @@ active: download
 
 <div>
 	<h3>说明</h3>
+	<li>
+		商店版目前只有64位版本。
+	</li>
 	<li>
 		旧的AHK版（<a href="https://github.com/XUJINKAI/OneQuick" target="_blank">项目主页</a>）功能全面，但已停止更新。
 	</li>

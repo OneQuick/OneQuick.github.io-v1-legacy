@@ -11,11 +11,11 @@ active: index
 <div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
 	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">
 		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 应用商店版
+			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 获取商店版
 		</button>
 	</a>
 	<p style="margin-top: 14px;">
-		<a href="/download" style="color: #333; font-weight: 600; text-decoration: none; line-height: 1.6; font-size: 13px;">下载其他版本</a>
+		<a href="/download" style="color: #333; font-weight: bolder; text-decoration: underline; line-height: 1.6; font-size: 13px;">下载其他版本</a>
 	</p>
 
 	<p>

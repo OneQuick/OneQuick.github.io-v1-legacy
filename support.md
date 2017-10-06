@@ -30,4 +30,4 @@ OneQuick是个人项目，如果喜欢OneQuick，可以考虑帮助OneQuick宣�
 
 ### 联系
 
-您可以通过向<a href="support@onequick.org">support@onequick.org</a>发邮件单独联系开发者。
+您可以通过向<a href="mailto:support@onequick.org">support@onequick.org</a>发邮件单独联系开发者。

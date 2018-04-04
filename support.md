@@ -10,17 +10,12 @@ h3 {
 }
 </style>
 
-### 问题反馈
-
-反馈问题请发到 <a href="https://github.com/OneQuick/OneQuick.net/issues" target="_blank">Issues</a>。
-
-请尽量给出错误详细信息，还有安装环境（系统，是否64位，是否商店版）。
 
 ### 帮助文档
 
-<a href="https://github.com/OneQuick/OneQuick.net/wiki" target="_blank">OneQuick Wiki</a>。有任何不清楚的地方，请告诉作者，帮助作者完善软件和帮助信息。
+<a href="https://github.com/OneQuick/OneQuick.net/wiki" target="_blank">OneQuick Wiki</a>。
 
-### 支持OneQuick
+### 支持作者
 
 OneQuick是个人项目，如果喜欢OneQuick，可以考虑帮助OneQuick宣传。
 
@@ -28,6 +23,6 @@ OneQuick是个人项目，如果喜欢OneQuick，可以考虑帮助OneQuick宣�
 
 您的每一个评价、转发、点赞，都是作者进步的动力。
 
-### 联系
+从<a href="https://github.com/XUJINKAI/OneQuick" target="_blank">AHK版</a>一路走来，感谢支持<span style="color: red;">❤</span>
 
-您可以通过向<a href="mailto:support@onequick.org">support@onequick.org</a>发邮件单独联系开发者。
+(您可以<a href="http://xujinkai.net/donate" target="_blank">捐赠</a>以感谢作者，但未来计划推出功能更强大**且收费**的Pro版，忘知悉)

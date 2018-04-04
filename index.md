@@ -52,6 +52,9 @@ active: index
 
 <div class="desc-section">
 	<p>更多功能还在开发中，去<a href="/download">下载页面</a></p>
+	<p style="font-size: smaller;
+    font-weight: 700;
+    color: #000000d9;">由于软件在不断迭代开发中，截图与实际可能不同（如仍在测试中的功能）</p>
 </div>
 
 <br>

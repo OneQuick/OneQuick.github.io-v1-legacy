@@ -3,27 +3,26 @@ title: OneQuick - 下载
 layout: index2
 active: download
 ---
-<div style="margin: 20px 0;">
-	<p>
-		<span style="font-size: 22px;">OneQuick Lite</span>
-		<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank"><button type="button" class="btn btn-primary ms-store-dl">
-			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 商店版
-		</button></a>
-		<a href="{{ site.lite.x64url }}"><button type="button" class="btn btn-primary download">64位</button></a>
-		<a href="{{ site.lite.x86url }}"><button type="button" class="btn btn-primary download">32位</button></a>
-	</p>
+<style>
+div.dl-link a {
+	font-size: 16px;
+	font-weight: 700;
+}
+</style>
+<div style="margin: 10px 0;" class="dl-link">
+
+Win10商店（64位，推荐）：
+<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">Lite版</a>
+
+<br>
+下载版（支持Win7以上系统）：
+<a href="{{ site.lite.x64url }}">64位</a>，
+<a href="{{ site.lite.x86url }}">32位</a>
+
 </div>
 
-### 说明
 
-- 下载版支持win7以上系统，64位用户请下载64位版本。
-
-- 商店版目前只有64位版本。
-
-- 旧的AHK版（<a href="https://github.com/XUJINKAI/OneQuick" target="_blank">项目主页</a>）已停止更新。
-
-- 新版暂时还没有快速搜索和剪贴板历史的功能。
-
+<hr>
 <style>
 h4 {
 	font-weight: bolder;

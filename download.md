@@ -23,14 +23,6 @@ Win10商店（64位，推荐）：
 
 
 <hr>
-<style>
-h4 {
-	font-weight: bolder;
-	font-size: 15px;
-    margin-top: 14px;
-    margin-bottom: 4px;
-}
-</style>
 
 ### 版本历史
 

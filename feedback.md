@@ -6,9 +6,11 @@ active: feedback
 
 ### 如何反馈：
 
-请先阅读已知问题列表，并查找Issues里是否已有此问题，若没有再进行反馈。
+请先阅读**已知问题**列表，并查找**Issues**里是否已有此问题，若没有再进行反馈。
 
 请尽量描述清楚问题复现的方法、错误信息，以及安装环境（系统，是否64位，是否商店版），这些都有助于作者定位问题。
+
+您也可以阅读**支持**页面，了解更多OneQuick的使用方法和原理。
 
 反馈地址（Issues）<a href="https://github.com/OneQuick/OneQuick.net/issues" target="_blank">在此</a>。
 

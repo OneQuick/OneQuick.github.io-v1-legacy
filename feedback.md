@@ -19,6 +19,8 @@ active: feedback
 
 反馈地址（Issues）<a href="https://github.com/OneQuick/OneQuick.net/issues" target="_blank">在此</a>。
 
+<span style="font-size: 12px; font-style: italic;">请不要在应用商店、微博、知乎反馈问题（提建议可以）。尤其是应用商店，作者只能回复一条，而且无法贴图，这样对解决问题没有任何帮助。微博知乎等地方也略有不便，回复可能不及时，都没有issues好用。</span>
+
 
 ### 已知问题：
 

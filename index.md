@@ -11,11 +11,21 @@ active: index
 <div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
 	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">
 		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> 获取商店版
+			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> Lite版
+		</button>
+	</a>
+	<a href="javascript:void(0);" target="_blank">
+		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
+			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> Pro版（即将发布）
 		</button>
 	</a>
 	<p style="margin-top: 14px;">
-		<a href="/download" style="color: #333; font-weight: bolder; text-decoration: underline; line-height: 1.6; font-size: 13px;">下载其他版本</a>
+		<span style="color: #333; font-weight: bolder; line-height: 1.6; font-size: 13px;">
+			Win7：
+			<a href="{{ site.lite.x64url }}">64位</a>，
+			<a href="{{ site.lite.x86url }}">32位</a>
+			（{{ site.lite.size }}）
+		</span>
 	</p>
 
 	<p>
@@ -30,31 +40,51 @@ active: index
 
 <div class="desc-section">
 	<h2>屏幕边缘操作</h2>
-	<p>改变鼠标在屏幕边缘的功能。甩甩鼠标再滚轮，轻松调节音量/切歌/翻页。</p>
-	<p>全屏玩游戏时想调节音量还要返回桌面？不存在的。</p>
-	<center><img src="/img/cn_border.png"></center>
+	<p>改变鼠标在屏幕边缘的功能。甩甩鼠标、再滚轮，轻松操作。</p>
+	<p>全屏玩游戏时，切歌调音量不用再退回桌面。</p>
+	<center><img src="/img/cn1screenborder.jpg"></center>
 </div>
 
 
 <div class="desc-section">
-	<h2>短语替换、快速输出</h2>
-	<p>常用邮箱、地址，一次设置，快速输出。</p>
-	<center><img src="/img/cn_phrases.png"></center>
+	<h2>复制搜索一气呵成</h2>
+	<p>复制、打开浏览器、输入地址、粘贴、回车？不用这么麻烦。</p>
+	<p>还可以设置分组，一次从多个网站搜索。</p>
+	<center><img src="/img/cn2copysearch.jpg"></center>
 </div>
 
 
 <div class="desc-section">
-	<h2>常见需求、一网打尽</h2>
-	<p>窗口置顶、窗口透明度、打开当前程序位置，Chrome标签滚轮切换...</p>
-	<center><img src="/img/cn_buildin.png"></center>
+	<h2>自定义热键！</h2>
+	<p>Boom！</p>
+	<center><img src="/img/cn4custom.jpg"></center>
+	<p class="pro_tip">*此功能需要Pro版</p>
 </div>
 
 
 <div class="desc-section">
-	<p>更多功能还在开发中，去<a href="/download">下载页面</a></p>
+	<h2>配置随心切换</h2>
+	<p>还嫌不够灵活？</p>
+	<center><img src="/img/cn7config.jpg"></center>
+	<p class="pro_tip">*此功能需要Pro版</p>
+</div>
+
+
+<div class="desc-section">
+	<h2>更多、更多、更多。。。</h2>
+	<p>短语替换、按键映射、Chrome滚轮切换标签...</p>
+	<center>
+		<img src="/img/cn3rep.jpg">
+		<img src="/img/cn5map.jpg">
+		<img src="/img/cn6buildin.jpg">
+	</center>
+</div>
+
+
+<div class="desc-section">
 	<p style="font-size: smaller;
     font-weight: 700;
-    color: #000000d9;">由于软件在不断迭代开发中，截图与实际可能不同（如仍在测试中的功能）</p>
+    color: #000000d9;">1. Lite版功能有所限制；2.软件迭代开发中，截图与实际可能不同</p>
 </div>
 
 <br>

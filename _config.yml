@@ -1,9 +1,9 @@
 lite:
-  version: "0.11.4"
-  size: 231kb
-  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.11.4.34884.x86.zip
-  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.0.11.4.34885.x64.zip
+  version: "1.0.0"
+  size: 250kb
+  x86url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.1.0.0.39256.x86.zip
+  x64url: https://github.com/OneQuick/OneQuick.net/releases/download/bin/OneQuick.Lite.1.0.0.39257.x64.zip
   launch: OneQuick.exe
-  v1note: 预览版
-  v2note: 将配置文件位置从LocalAppData改到用户文档目录；优化升级流程，现在可以选择否（不立刻升级）了。
-  v3note: 将配置文件位置从LocalAppData改到用户文档目录；优化升级流程，现在可以选择否（不立刻升级）了。
+  v1note: 增加快速搜索功能。修复大量bug。
+  v2note: 增加快速搜索功能。修复大量bug。
+  v3note: 增加快速搜索功能。修复大量bug。

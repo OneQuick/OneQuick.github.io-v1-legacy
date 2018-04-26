@@ -1,34 +1,26 @@
 ---
-title: OneQuick - 键鼠如飞
+title: OneQuick - 最方便的热键工具
 layout: index
 active: index
 ---
 <div style="margin-top: 10px;"></div>
 
-<h1 class="text-center">简单、高效、优雅地使用计算机</h1>
-<div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">致力于解决日常使用电脑时遇到的不便</div>
+<h1 class="text-center">简单、方便、高效地使用计算机</h1>
+<div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">解决使用电脑时的种种不便</div>
 
 <div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
-	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank">
-		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> Lite版
-		</button>
-	</a>
-	<a href="javascript:void(0);" target="_blank">
-		<button class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			<img src="/img/ms-logo.png" style="height: 16px; margin-top: -2px;"> Pro版（即将发布）
-		</button>
-	</a>
-	<p style="margin-top: 14px;">
-		<span style="color: #333; font-weight: bolder; line-height: 1.6; font-size: 13px;">
-			Win7：
-			<a href="{{ site.lite.x64url }}">64位</a>，
-			<a href="{{ site.lite.x86url }}">32位</a>
-			（{{ site.lite.size }}）
+	<a href="/download">
+		<span class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
+			获取OneQuick
 		</span>
-	</p>
+		<br>
+		<span style="margin-top: 3px;">
+			<img src="/img/ms-logo.png" style="height: 14px;">
+			<span style="font-size: 10px; color: #0078d7;">应用商店版本已可用</span>
+		</span>
+	</a>
 
-	<p>
+	<p style="margin-top: 20px;">
 		<span style="color: #777;">关注：</span>
 		<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
 			<i class="fa fa-weibo" style="color: #e6162d;"></i>
@@ -56,22 +48,22 @@ active: index
 
 <div class="desc-section">
 	<h2>自定义热键！</h2>
-	<p>Boom！</p>
+	<p>随心所欲</p>
+	<p>想怎么玩，就怎么玩</p>
 	<center><img src="/img/cn4custom.jpg"></center>
-	<p class="pro_tip">*此功能需要Pro版</p>
 </div>
 
 
 <div class="desc-section">
 	<h2>配置随心切换</h2>
 	<p>还嫌不够灵活？</p>
+	<p>多个配置就是多个键盘布局，一键切换！</p>
 	<center><img src="/img/cn7config.jpg"></center>
-	<p class="pro_tip">*此功能需要Pro版</p>
 </div>
 
 
 <div class="desc-section">
-	<h2>更多、更多、更多。。。</h2>
+	<h2>更多、更多功能...</h2>
 	<p>短语替换、按键映射、Chrome滚轮切换标签...</p>
 	<center>
 		<img src="/img/cn3rep.jpg">
@@ -84,7 +76,7 @@ active: index
 <div class="desc-section">
 	<p style="font-size: smaller;
     font-weight: 700;
-    color: #000000d9;">1. Lite版功能有所限制；2.软件迭代开发中，截图与实际可能不同</p>
+    color: #000000d9;">软件迭代开发中，截图与实际可能不同</p>
 </div>
 
 <br>

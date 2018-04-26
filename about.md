@@ -6,7 +6,7 @@ active: about
 
 <p style="height: 30px;"></p>
 
-OneQuick是个人项目，如果喜欢OneQuick，可以考虑帮助OneQuick宣传。
+OneQuick是个人项目，如果喜欢OneQuick，可以帮助OneQuick宣传。
 
 您可以在应用商店打分评价，或关注<a href="http://weibo.com/onequick" target="_blank">OneQuick微博</a>和<a href="https://www.zhihu.com/people/xxxjin" target="_blank">作者知乎</a>。
 

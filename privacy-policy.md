@@ -4,7 +4,7 @@ layout: index2
 active: docs
 ---
 
-OneQuick never collect any private data.
+OneQuick never collects any private data.
 
 OneQuick access internet to check update (for desktop version) and send some anonymous data for statistics purpose:
 
@@ -21,4 +21,4 @@ Your system info (e.g. Windows 10 Pro x64 1803 (17133.rs4_release))
 
 Your screen resolution and touch point (e.g. 3840x2160, 10)
 
-These information helps author known which version is most used and takes more effort to make OneQuick better.
+This information allows author to know which version is mostly used, so that more effor can be taken to make OneQuick better.

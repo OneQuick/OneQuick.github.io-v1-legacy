@@ -16,7 +16,7 @@ ul {
 <div style="margin: 10px 0;" class="dl-link">
 
 商店版：
-<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank" onclick="ga('send', 'event', 'click', 'download', 'store');">
+<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank" onclick="ga('send', 'event', 'download', 'store', 'lite');">
 <img src="/img/ms-logo.png" style="height: 13px; margin-top: -2px;">Lite版
 </a>, 
 Pro版(即将发布)
@@ -24,8 +24,8 @@ Pro版(即将发布)
 <br>
 <br>
 下载版：
-<a href="{{ site.lite.x64url }}" onclick="ga('send', 'event', 'click', 'download', 'x64');">64位</a>，
-<a href="{{ site.lite.x86url }}" onclick="ga('send', 'event', 'click', 'download', 'x86');">32位</a>
+<a href="{{ site.lite.x64url }}" onclick="ga('send', 'event', 'download', 'x64', '{{ site.lite.x64url }}');">64位</a>，
+<a href="{{ site.lite.x86url }}" onclick="ga('send', 'event', 'download', 'x86', '{{ site.lite.x86url }}');">32位</a>
 
 （Lite版，托管于Coding.net)
 </div>

@@ -3,8 +3,6 @@ layout: index
 title: jump page
 ---
 
-redirect...
-
 <script>
 var list = {
 	'home': '/',
@@ -13,7 +11,7 @@ var list = {
 	'change-log': '/download#change-log',
 }
 
-var jump = location.pathname.substring(4);
+var jump = location.search.substring(1);
 if(jump != "" && jump != "undefined") {
 	location = list[jump];
 }

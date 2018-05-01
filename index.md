@@ -23,7 +23,7 @@ active: index
 	<p style="margin-top: 20px;">
 		<span style="color: #777;">关注：</span>
 		<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
-			<i class="fa fa-weibo" style="color: #e6162d;"></i>
+			<img src="/img/weibo-logo.png" style="height: 15px; margin-top: -4px;">
 			<span style="color: #393939;">OneQuick工具</span>
 		</a>
 	</p>

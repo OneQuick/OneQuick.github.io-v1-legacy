@@ -4,7 +4,7 @@ layout: index2
 active: about
 ---
 
-<p style="height: 30px;"></p>
+<p style="height: 10px;"></p>
 
 OneQuick是个人项目，如果喜欢OneQuick，可以帮助OneQuick宣传。
 

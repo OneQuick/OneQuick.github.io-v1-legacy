@@ -31,7 +31,7 @@ ul {
 <br>
 
 <div style="margin: 10px 0;" class="dl-link">
-	免费版：
+	免费版(v{{site.lite.version}}): 
 	<a href="{{ site.lite.x64url }}" onclick="ga('send', 'event', 'download', 'x64', '{{ site.lite.x64url }}');">64位</a>，
 	<a href="{{ site.lite.x86url }}" onclick="ga('send', 'event', 'download', 'x86', '{{ site.lite.x86url }}');">32位</a>
 	（托管于Coding.net)
@@ -39,7 +39,9 @@ ul {
 
 屏幕边缘，复制搜索，短语替换功能无任何限制。
 
-适用于win7以上系统，64位/32位版本需跟系统一致。
+需要.net framework 4.6.1，64位/32位版本需跟系统一致。
+
+ *[历史版本下载](https://github.com/OneQuick/OneQuick.net/releases)
 
 <hr>
 
@@ -52,13 +54,23 @@ ul {
 
 <h3 id='change-log'>更新日志</h3>
 
-- #### 1.1.0 (即将发布)
+ *未推送状态：您可以手动去应用商店检查更新，或在历史版本链接中下载*
 
-原先计划中的Lite和Pro两个版本合二为一，Pro功能变为订阅功能。
+- #### 1.1.0 (未推送)
 
+更改Lite/Pro双版本为免费/订阅模式。
 
 **注意**：配置目录从文档的OneQuick Lite变为了OneQuick，您可能需要手动删除OneQuick Lite目录。
 
+新增：  
+窗口透明度调节（不一定对所有窗口有效）  
+订阅标签（可从关于页面进入）  
+
+改进：  
+关于页面  
+
+修复：  
+闪退bug  
 
 - #### 1.0.0 (2018/04/21)
 

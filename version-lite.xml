@@ -1,13 +1,16 @@
----
-layout: null
----
 <?xml version="1.0" encoding="utf-8"?>
 <VersionUpdate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Version>{{ site.lite.version }}</Version>
-  <DownloadZipUrlX86>{{ site.lite.x86url }}</DownloadZipUrlX86>
-  <DownloadZipUrlX64>{{ site.lite.x64url }}</DownloadZipUrlX64>
-  <LaucherName>{{ site.lite.launch }}</LaucherName>
-  <ReleaseNote1>{{ site.lite.v1note }}</ReleaseNote1>
-  <ReleaseNote2>{{ site.lite.v2note }}</ReleaseNote2>
-  <ReleaseNote3>{{ site.lite.v3note }}</ReleaseNote3>
+  <Version>1.2.0</Version>
+  <DownloadZipUrlX86>http://onequick.org/bin/OneQuick.1.2.0.x86.zip</DownloadZipUrlX86>
+  <DownloadZipUrlX64>http://onequick.org/bin/OneQuick.1.2.0.x64.zip</DownloadZipUrlX64>
+  <LaucherName>OneQuick.exe</LaucherName>
+  <ReleaseNote1>全新的关于页面、更新体验。
+重做多语言，增加预览版开关。
+重构与改进，修复闪退bug。</ReleaseNote1>
+  <ReleaseNote2>全新的关于页面、更新体验。
+重做多语言，增加预览版开关。
+重构与改进，修复闪退bug。</ReleaseNote2>
+  <ReleaseNote3>全新的关于页面、更新体验。
+重做多语言，增加预览版开关。
+重构与改进，修复闪退bug。</ReleaseNote3>
 </VersionUpdate>

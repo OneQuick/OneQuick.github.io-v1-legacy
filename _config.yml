@@ -1,10 +1,1 @@
-lite:
-  version: "1.0.0"
-  size: 250kb
-  x64url: https://coding.net/api/share/download/6ca36e11-d261-44b0-bb2d-5e3aa6eff635
-  x86url: https://coding.net/api/share/download/29f323ee-80b8-4f1a-80c3-0eb9e6ac3422
-  launch: OneQuick.exe
-  v1note: 增加快速搜索功能。修复大量bug。
-  v2note: 增加快速搜索功能。修复大量bug。
-  v3note: 增加快速搜索功能。修复大量bug。
 permalink: /404.html

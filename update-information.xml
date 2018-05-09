@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-16"?>
+<UpdateInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Versions>
+    <VersionItem>
+      <Tag>桌面版</Tag>
+      <LauncherName>OneQuick.exe</LauncherName>
+      <IsStoreVersion>false</IsStoreVersion>
+      <IsPrerelease>false</IsPrerelease>
+      <PushPercentage>100</PushPercentage>
+      <Version>1.2.0</Version>
+      <X86Url>http://onequick.org/bin/OneQuick.1.2.0.x86.zip</X86Url>
+      <X64Url>http://onequick.org/bin/OneQuick.1.2.0.x64.zip</X64Url>
+      <ChangeLog>1.2.0：全新的关于页面、更新体验。
+重做多语言，增加预览版开关。
+重构与改进，修复闪退bug。
+</ChangeLog>
+    </VersionItem>
+    <VersionItem>
+      <Tag>桌面预览版</Tag>
+      <LauncherName>OneQuick.exe</LauncherName>
+      <IsStoreVersion>false</IsStoreVersion>
+      <IsPrerelease>true</IsPrerelease>
+      <PushPercentage>100</PushPercentage>
+      <Version>1.2.0</Version>
+      <X86Url>http://onequick.org/bin/OneQuick.1.2.0.x86.zip</X86Url>
+      <X64Url>http://onequick.org/bin/OneQuick.1.2.0.x64.zip</X64Url>
+      <ChangeLog>[预览版]</ChangeLog>
+    </VersionItem>
+    <VersionItem>
+      <Tag>商店版ChangeLog提示</Tag>
+      <LauncherName>OneQuick.exe</LauncherName>
+      <IsStoreVersion>true</IsStoreVersion>
+      <IsPrerelease>false</IsPrerelease>
+      <PushPercentage>100</PushPercentage>
+      <Version>1.2.0</Version>
+      <X86Url></X86Url>
+      <X64Url></X64Url>
+      <ChangeLog></ChangeLog>
+    </VersionItem>
+  </Versions>
+  <WinTitleAdd></WinTitleAdd>
+  <AboutTextBlock>tip:
+1. 热键控件上点击右键可以更改确认键和清除键，这样就可以输入回车和退格了。
+2. 多媒体切换、窗口透明度需要当前程序支持，在某些情况下失效并不是bug。
+更多信息请查看官网文档</AboutTextBlock>
+</UpdateInfo>

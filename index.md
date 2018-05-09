@@ -55,7 +55,7 @@ active: index
 
 
 <div class="desc-section">
-	<h2>配置随心切换</h2>
+	<h2>配置快捷切换</h2>
 	<p>还嫌不够灵活？</p>
 	<p>多个配置就是多个键盘布局，一键切换！</p>
 	<center><img src="/img/cn7config.png"></center>

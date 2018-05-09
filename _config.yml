@@ -1,1 +1,3 @@
 permalink: /404.html
+
+exclude: ['serve.bat', 'generate.bat']

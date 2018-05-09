@@ -42,11 +42,7 @@ ul {
 --exit 退出目前正在运行的实例  
 
 以协议方式运行:  
-onequick:  
-onequick-lite:  
-OneQuickLite.exe  
-onequick-pro:  
-OneQuickPro.exe  
+onequick:
 
 ## Debug Mode
 

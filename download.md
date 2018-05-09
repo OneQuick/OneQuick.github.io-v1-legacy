@@ -22,7 +22,7 @@ ul {
 	</a>
 </div>
 
-下载免费，支持订阅高级功能。
+在免费版基础上，支持订阅高级功能。
 
 结合Win10新特性，更新方便且更加稳定。
 
@@ -31,34 +31,18 @@ ul {
 <br>
 
 <div style="margin: 10px 0; font-weight: bold;" class="dl-link">
-	免费下载版
+	<a href="/bin" onclick="ga('send', 'event', 'download', 'list', 'list');">桌面版下载列表</a>
 </div>
 
 屏幕边缘，复制搜索，短语替换功能无任何限制。
 
 支持win7以上系统，64位/32位版本需跟系统一致。
 
-
-{% directory path: bin %}
-<a href="{{ file.url }}" onclick="ga('send', 'event', 'download', 'desktop', '{{file.name}}')">{{ file.name }}</a>
-{% enddirectory %}
-
-<!-- https://github.com/sillylogger/jekyll-directory -->
-<!-- {% directory path: bin/ [reverse] [exclude] %}
-  {{ file.date }}
-  {{ file.name }}
-  {{ file.slug }}
-  {{ file.url }}
-
-  {{ forloop }}
-{% enddirectory %} -->
-
-
 <hr>
 
 <h3 id='change-log'>更新日志</h3>
 
- *未推送状态：您可以在历史版本链接中下载桌面版；应用商店手动检查更新**可能**会有。*
+ *未推送状态：您可以在版本列表中找到桌面下载版；应用商店手动检查更新**可能**会有。*
 
 - #### 1.2.0
 

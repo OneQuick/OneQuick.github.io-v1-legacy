@@ -30,8 +30,10 @@ ul {
 
 <br>
 
-<div style="margin: 10px 0; font-weight: bold;" class="dl-link">
-	<a href="/bin" onclick="ga('send', 'event', 'download', 'list', 'list');">桌面版下载列表</a>
+<div style="margin: 10px 0;" class="dl-link">
+	桌面版下载
+	<a href="/bin/OneQuick.1.2.0.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">x64</a>
+	<a href="/bin/OneQuick.1.2.0.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x86</a>
 </div>
 
 屏幕边缘，复制搜索，短语替换功能无任何限制。
@@ -41,8 +43,6 @@ ul {
 <hr>
 
 <h3 id='change-log'>更新日志</h3>
-
- *未推送状态：您可以在版本列表中找到桌面下载版；应用商店手动检查更新**可能**会有。*
 
 - #### 1.2.0
 

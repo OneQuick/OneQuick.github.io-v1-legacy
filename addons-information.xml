@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AddonsInfo>
+  <OnSale>1</OnSale>
+  <Filter>1</Filter>
+  <Addons>
+    <Addon>
+      <Token>onequick_standard_annually</Token>
+    </Addon>
+    <Addon>
+      <Token>onequick_promo_1openning</Token>
+    </Addon>
+  </Addons>
+</AddonsInfo>

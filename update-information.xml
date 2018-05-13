@@ -1,3 +1,5 @@
+---
+---
 <?xml version="1.0" encoding="utf-16"?>
 <UpdateInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Versions>
@@ -7,10 +9,10 @@
       <IsStoreVersion>false</IsStoreVersion>
       <IsPrerelease>false</IsPrerelease>
       <PushPercentage>100</PushPercentage>
-      <Version>1.2.0</Version>
-      <X86Url>http://onequick.org/bin/OneQuick.1.2.0.x86.zip</X86Url>
-      <X64Url>http://onequick.org/bin/OneQuick.1.2.0.x64.zip</X64Url>
-      <ChangeLog>1.2.0：全新的关于页面、更新体验。
+      <Version>{{site.stable-version}}</Version>
+      <X86Url>http://onequick.org/bin/OneQuick.{{site.stable-version}}.x86.zip</X86Url>
+      <X64Url>http://onequick.org/bin/OneQuick.{{site.stable-version}}.x64.zip</X64Url>
+      <ChangeLog>全新的关于页面、更新体验。
 重做多语言，增加预览版开关。
 重构与改进，修复闪退bug。
 </ChangeLog>
@@ -21,10 +23,13 @@
       <IsStoreVersion>false</IsStoreVersion>
       <IsPrerelease>true</IsPrerelease>
       <PushPercentage>100</PushPercentage>
-      <Version>1.2.0</Version>
-      <X86Url>http://onequick.org/bin/OneQuick.1.2.0.x86.zip</X86Url>
-      <X64Url>http://onequick.org/bin/OneQuick.1.2.0.x64.zip</X64Url>
-      <ChangeLog>[预览版]</ChangeLog>
+      <Version>1.2.2</Version>
+      <X86Url>http://onequick.org/bin/OneQuick.1.2.2.x86.zip</X86Url>
+      <X64Url>http://onequick.org/bin/OneQuick.1.2.2.x64.zip</X64Url>
+      <ChangeLog>[预览版]去掉工具栏的升级提示。
+修复闪退问题(again)。  
+修复复制搜索Url转码的一个bug。  
+在日志中记录崩溃信息。  </ChangeLog>
     </VersionItem>
     <VersionItem>
       <Tag>商店版ChangeLog提示</Tag>

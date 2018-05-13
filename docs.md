@@ -28,21 +28,22 @@ ul {
 
 ## 功能原理
 
-- 音量调整：模拟键盘按键（VolumeMute、VolumeDown、VolumeUp），所以在win10上会触发左上角的音量条。
+OneQuick的大部分功能都是通过模拟键盘按键实现的。  
+Windows提供了丰富的热键组合，使用这些热键几乎可以完成所有操作。  
+而在OneQuick的逻辑中，键盘和鼠标的任意组合都可以是热键。  
+这就让OneQuick成为了Windows快捷键中心的角色，在OneQuick里可以轻易地改变系统热键，甚至用鼠标触发。
 
-- 多媒体：模拟键盘按键（MediaNextTrack、MediaPreviousTrack、MediaPlayPause），若播放器没有监听这些事件，就不会起作用。
-
-## 相关文章
-
-- [OneQuick开发日志 - 功能逻辑](https://zhuanlan.zhihu.com/p/35781215)
+相关文章：  
+[OneQuick开发日志 - 功能逻辑](https://zhuanlan.zhihu.com/p/35781215)  
 
 ## 启动参数
 
 -h --hide 运行后隐藏窗口  
 --exit 退出目前正在运行的实例  
 
-以协议方式运行:  
-onequick:
+商店版支持协议方式运行：  
+onequick:  
+onequick.exe（Alias，无需输入完整路径）
 
 ## Debug Mode
 

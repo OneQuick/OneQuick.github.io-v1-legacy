@@ -9,5 +9,8 @@
     <Addon>
       <Token>onequick_promo_1openning</Token>
     </Addon>
+    <Addon>
+      <Token>onequick_test1</Token>
+    </Addon>
   </Addons>
 </AddonsInfo>

@@ -32,8 +32,8 @@ ul {
 
 <div style="margin: 10px 0;" class="dl-link">
 	桌面版下载
-	<a href="/bin/OneQuick.1.2.0.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">x64</a>
-	<a href="/bin/OneQuick.1.2.0.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x86</a>
+	<a href="/bin/OneQuick.{{site.stable-version}}.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">x64</a>
+	<a href="/bin/OneQuick.{{site.stable-version}}.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x86</a>
 </div>
 
 屏幕边缘，复制搜索，短语替换功能无任何限制。
@@ -44,13 +44,23 @@ ul {
 
 <h3 id='change-log'>更新日志</h3>
 
-- #### 1.2.0
+*注：商店版更新一般比下载版慢 2 到 3 天。*
+
+- #### 1.2.2 (2018/5/13)
+
+优化商店版订阅体验。  
+去掉工具栏的升级提示。  
+修复闪退问题(again)。  
+修复复制搜索Url转码的一个bug。  
+在日志中记录崩溃信息。  
+
+- #### 1.2.0 (2018/5/9)
 
 全新的关于页面和更新提示改进。  
 重构与改进，重做多语言、更新、联网、日志模块。  
 桌面版可选择获取预览版。  
 
-- #### 1.1.2 (未推送)
+- #### 1.1.2 (下载版未推送)
 
 更改Lite/Pro双版本为免费/订阅模式。
 

@@ -64,7 +64,7 @@ active: index
 
 <div class="desc-section">
 	<h2>更多功能</h2>
-	<p>短语替换、按键映射、Chrome滚轮切换标签...</p>
+	<p>短语替换、按键映射、窗口置顶、Chrome滚轮切换标签...</p>
 	<center>
 		<img src="/img/cn3rep.png">
 		<img src="/img/cn5map.png">

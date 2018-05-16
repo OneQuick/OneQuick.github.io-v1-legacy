@@ -32,16 +32,16 @@ active: index
 
 <div class="desc-section">
 	<h2>屏幕边缘操作</h2>
-	<p>改变鼠标在屏幕边缘的功能。甩甩鼠标、再滚轮，轻松操作。</p>
-	<p>全屏玩游戏时，切歌调音量不用再退回桌面。</p>
+	<p>鼠标甩到屏幕左上角：滚轮 = 调音量</p>
+	<p>瞬间静音，闭着眼睛都能调。</p>
 	<center><img src="/img/cn1screenborder.png"></center>
 </div>
 
 
 <div class="desc-section">
 	<h2>复制搜索一气呵成</h2>
-	<p>复制、打开浏览器、输入地址、粘贴、回车？不用这么麻烦。</p>
-	<p>还可以设置分组，一次从多个网站搜索。</p>
+	<p>复制内容后一键搜索</p>
+	<p>还可以设置分组，一次打开多个网站</p>
 	<center><img src="/img/cn2copysearch.png"></center>
 </div>
 

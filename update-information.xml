@@ -10,12 +10,11 @@
       <IsPrerelease>false</IsPrerelease>
       <PushPercentage>100</PushPercentage>
       <Version>{{site.stable-version}}</Version>
-      <X86Url>http://onequick.org/bin/OneQuick.{{site.stable-version}}.x86.zip</X86Url>
-      <X64Url>http://onequick.org/bin/OneQuick.{{site.stable-version}}.x64.zip</X64Url>
-      <ChangeLog>去掉工具栏的升级提示。
-修复闪退问题(again)。  
-修复复制搜索Url转码的一个bug。  
-在日志中记录崩溃信息。  </ChangeLog>
+      <X86Url>https://onequick.org/bin/OneQuick.{{site.stable-version}}.x86.zip</X86Url>
+      <X64Url>https://onequick.org/bin/OneQuick.{{site.stable-version}}.x64.zip</X64Url>
+      <ChangeLog>优化UI、托盘菜单及图标。
+修复一个导致崩溃的bug。
+完善崩溃时日志的记录。</ChangeLog>
     </VersionItem>
     <VersionItem>
       <Tag>桌面预览版</Tag>
@@ -24,8 +23,8 @@
       <IsPrerelease>true</IsPrerelease>
       <PushPercentage>100</PushPercentage>
       <Version>1.2.2</Version>
-      <X86Url>http://onequick.org/bin/OneQuick.1.2.2.x86.zip</X86Url>
-      <X64Url>http://onequick.org/bin/OneQuick.1.2.2.x64.zip</X64Url>
+      <X86Url>https://onequick.org/bin/OneQuick.1.2.2.x86.zip</X86Url>
+      <X64Url>https://onequick.org/bin/OneQuick.1.2.2.x64.zip</X64Url>
       <ChangeLog>[预览版]去掉工具栏的升级提示。
 修复闪退问题(again)。  
 修复复制搜索Url转码的一个bug。  

@@ -16,7 +16,7 @@ active: index
 		<br>
 		<span style="margin-top: 3px;">
 			<img src="/img/ms-logo.png" style="height: 14px;">
-			<span style="font-size: 10px; color: #0078d7;">已上架应用商店</span>
+			<span style="font-size: 10px; color: #0078d7;">已上架应用商店，Pro功能促销中</span>
 		</span>
 	</a>
 

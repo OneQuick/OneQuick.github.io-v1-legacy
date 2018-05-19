@@ -14,5 +14,6 @@ OneQuick是个人项目，如果喜欢OneQuick，可以帮助OneQuick宣传。
 
 从<a href="https://github.com/XUJINKAI/OneQuick" target="_blank">AHK版</a>一路走来，感谢支持<span style="color: red;">❤</span>
 
-(您可以<a href="http://xujinkai.net/donate" target="_blank">捐赠</a>以感谢作者，但Pro版是收费的，捐赠并无法获得Pro版，望知悉)
+---
 
+个人能力有限，文案、宣传、网站、英文翻译，作者并不精通，有想法愿意帮助作者的，可微博私信。

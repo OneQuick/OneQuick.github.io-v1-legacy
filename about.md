@@ -6,6 +6,10 @@ active: about
 
 <p style="height: 10px;"></p>
 
+个人能力有限，文案、宣传、网站、英文翻译，作者并不精通，有想法愿意合作可微博私信。
+
+---
+
 OneQuick是个人项目，如果喜欢OneQuick，可以帮助OneQuick宣传。
 
 您可以在应用商店打分评价，或关注<a href="http://weibo.com/onequick" target="_blank">OneQuick微博</a>和<a href="https://www.zhihu.com/people/xxxjin" target="_blank">作者知乎</a>。
@@ -16,4 +20,4 @@ OneQuick是个人项目，如果喜欢OneQuick，可以帮助OneQuick宣传。
 
 ---
 
-个人能力有限，文案、宣传、网站、英文翻译，作者并不精通，有想法愿意帮助作者的，可微博私信。
+链接：[隐私政策](/privacy-policy)

@@ -3,6 +3,46 @@ title: OneQuick - 离不开的快捷工具
 layout: index
 active: index
 ---
+<style>
+h1 {
+    font-size: 3.8em;
+    margin: 0 0 .3em;
+    font-weight: 300;
+    line-height: 1.15;
+}
+h2 {
+    font-size: 3em;
+    margin: 1em 0 .5em 0;
+    font-weight: 300;
+    line-height: 1.25;
+    text-align: center;
+}
+.ms-store-dl {
+  background-color: rgba(0, 120, 215, 1);
+}
+
+.desc-section {
+  margin-top: 6em;
+}
+
+.desc-section p {
+  text-align: center;
+  margin: 10px 10%;
+  line-height: 1.6;
+  color: #777;
+}
+
+.desc-section img {
+  width: 700px;
+  max-width: 100%;
+  margin: 30px auto 0 auto;
+}
+
+.pro_tip {
+  font-size: 10px;
+  font-weight: bolder;
+}
+</style>
 <div style="margin-top: 10px;"></div>
 
 <h1 class="text-center">简单而强大的快捷工具</h1>

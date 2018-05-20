@@ -1,0 +1,69 @@
+---
+layout: index
+---
+<style>
+nav[data-toggle=toc] .nav>li>a {
+	color: #1d75c1;
+}
+nav[data-toggle=toc] .nav>li>a:focus, 
+nav[data-toggle=toc] .nav>li>a:hover {
+	color: #1d75c1;
+	border-left: 1px solid #1d75c1;
+}
+nav[data-toggle=toc] .nav-link.active, 
+nav[data-toggle=toc] .nav-link.active:focus, 
+nav[data-toggle=toc] .nav-link.active:hover {
+	font-weight: 600 !important;
+	background-color: #eaeaeaa6;
+	color: #1d75c1;
+	border-left: 2px solid #1d75c1;
+}
+
+nav[data-toggle='toc'] {
+  top: 42px;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle='toc'] {
+    margin-bottom: 42px;
+    position: static;
+  }
+
+  /* PICK ONE */
+  /* don't expand nested items, which pushes down the rest of the page when navigating */
+  nav[data-toggle='toc'] .nav .active .nav {
+    display: none;
+  }
+  /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+  
+/*  nav[data-toggle='toc'] .nav .nav {
+    display: block;
+  }*/
+  
+}
+</style>
+
+<div class="row">
+  <!-- sidebar, which will move to the top on a small screen -->
+  <div class="col-sm-3">
+    <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+  </div>
+  <!-- main content area -->
+  <div class="col-sm-9">
+    <div id="toc-content" class="markdown-body">{{content}}</div>
+  </div>
+</div>
+
+<script>
+//文档：https://afeld.github.io/bootstrap-toc/
+// $(function() {
+//   var navSelector = '#toc';
+//   var $myNav = $(navSelector);
+//   Toc.init($myNav);
+//   $('#toc-content').scrollspy({
+//     target: navSelector
+//   });
+// });
+</script>

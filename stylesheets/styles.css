@@ -1,39 +1,13 @@
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif !important;
+.pull-right{
+  float: right;
 }
 
-li.active {
-  font-weight: bolder;
+.m-color {
+  color: #008dfd !important;
 }
 
-.nav a {
-  color: #333;
-}
-
-.nav a:hover,
-.nav a:focus {
-  color: black;
-  text-decoration: none;
-}
-
-.nav li a:hover,
-.nav li a:focus {
-  background-color: rgba(255, 255, 255, 0) !important;
-}
-
-ul.navbar-right {
-  height: 45px;
-  border: groove;
-  border-right: none;
-  border-top: none;
-  border-left: none;
-  border-width: 1px;
-  border-color: rgba(205, 205, 205, 0.34);
-}
-
-/* 小屏幕时nav继续横着排列 */
-.navbar-nav>li {
-    float: left;
+.m-color-background {
+  background-color: #008dfd !important;
 }
 
 /* sticky footer */
@@ -43,7 +17,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 .footer {
   position: absolute;
@@ -56,61 +30,7 @@ body {
 
 /* footer inside */
 p.text-muted {
+  color: #333;
   font-size: 14px;
   margin-top: 16px;
-}
-
-
-/* index */
-
-.download {
-  background-color: #008dfd;
-}
-
-.ms-store-dl {
-  background-color: rgba(0, 120, 215, 1);
-}
-
-h1 {
-  font-size: 3.8em;
-  margin: 0 0 .3em;
-  font-weight: 300;
-  line-height: 1.15;
-}
-
-.desc-section {
-  margin-top: 6em;
-}
-
-h2 {
-  font-size: 3em;
-  margin: 1em 0 .5em 0;
-  font-weight: 300;
-  line-height: 1.25;
-  text-align: center;
-}
-
-h4 {
-  font-weight: bolder;
-  font-size: 15px;
-  margin-top: 14px;
-  margin-bottom: 4px;
-}
-
-.desc-section p {
-  text-align: center;
-  margin: 10px 10%;
-  line-height: 1.6;
-  color: #777;
-}
-
-.desc-section img {
-  width: 700px;
-  max-width: 100%;
-  margin: 30px auto 0 auto;
-}
-
-.pro_tip {
-  font-size: 10px;
-  font-weight: bolder;
 }

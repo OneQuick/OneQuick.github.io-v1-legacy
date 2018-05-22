@@ -12,10 +12,14 @@ active: feedback
 
 ### 失效时请先排查
 
-- 多媒体切换需要播放器监听对应事件；窗口透明度和当前窗口属性有关；win10中的虚拟桌面切换需要先创建多个桌面。这些功能无效果时不一定是bug。
+- 多媒体切换、窗口置顶及透明度、虚拟桌面无效。  
+多媒体切换需要播放器监听对应按键；  
+窗口操作并非OneQuick“独家”控制，对应应用是可以自己改回去的；  
+虚拟桌面指win10系统的虚拟桌面，需要先新建多个桌面才能进行切换。
 
-- 以管理员身份运行的程序和普通程序之间，由于系统限制，是无法互通的。所以当OneQuick失效时，请首先检查当前激活窗口的运行身份，和OneQuick的运行身份。  
-(https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-prepare 参考UIAccess一节)
+- 由于系统限制，以管理员身份运行的程序和普通程序之间无法互通。  
+排查方法：先退出程序，再以管理员身份运行OneQuick，测试效果。  
+参考链接：https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-prepare
 
 ### 崩溃时需要的额外信息
 

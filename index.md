@@ -90,7 +90,7 @@ function openlink(){
 	<h2>屏幕边缘操作</h2>
 	<p>鼠标移到屏幕左上角：滚轮 = 调音量</p>
 	<p>闭眼做到瞬间静音</p>
-	<center><img src="/img/gif/screen-volume.gif" style="max-width: 30em;"></center>
+	<center><img src="/img/gif/screen-volume.gif" style="width: 30em;"></center>
 	<p>音量、多媒体、标签页、翻页、应用、虚拟桌面...</p>
 	<p>无论何种操作，滚轮即可</p>
 </div>
@@ -101,8 +101,8 @@ function openlink(){
 	<p>复制内容后一键搜索</p>
 	<p>还可以设置分组，一次打开多个网站</p>
 	<center>
-		<img src="/img/gif/copy-search.gif" style="max-width: 25em;">
-		<img src="/img/gif/copy-search-group.gif" style="max-width: 25em;">
+		<img src="/img/gif/copy-search.gif" style="width: 25em;">
+		<img src="/img/gif/copy-search-group.gif" style="width: 25em;">
 	</center>
 </div>
 
@@ -110,7 +110,7 @@ function openlink(){
 <div class="desc-section">
 	<h2>短语替换</h2>
 	<p>解决常用信息输入烦恼</p>
-	<center><img src="/img/gif/replace-phrase.gif" style="max-width: 35em;"></center>
+	<center><img src="/img/gif/replace-phrase.gif" style="width: 35em;"></center>
 </div>
 
 

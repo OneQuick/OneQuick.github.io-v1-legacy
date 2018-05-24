@@ -16,12 +16,30 @@ h4 {
 ### 下载链接
 
 <div style="margin: 20px 0px;" class="dl-link">
-	<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46" target="_blank" onclick="ga('send', 'event', 'download', 'store', 'store');">
+	<a id="store-link" href="https://www.microsoft.com/store/apps/9pfn5k6qxt46">
 		<img src="/img/ms-logo.png" style="height: 20px;
     margin: -3px 5px 0 6px;">
     	<span class="m-color">微软应用商店</span>
 	</a>
 </div>
+<script src="/javascripts/launch_uri.js"></script>
+<script>
+var store_protocol = "ms-windows-store://pdp/?productid=9PFN5K6QXT46";
+var store_url = "https://www.microsoft.com/store/apps/9pfn5k6qxt46";
+$("#store-link").click(function(event){
+	event.preventDefault();
+	openlink();
+});
+function openlink(){
+	launchUri(store_protocol, function(){
+	},function(){
+		window.open(store_url, "_blank");
+	},function(){
+		window.open(store_url, "_blank");
+	})
+	ga('send', 'event', 'download', 'store', 'store-download-page');
+}
+</script>
 
 在免费版基础上，支持订阅高级(Pro)功能。
 
@@ -33,8 +51,8 @@ h4 {
 
 <div style="margin: 10px 0;" class="dl-link">
 	桌面版下载
-	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">x64</a>
-	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x86</a>
+	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">64位</a>
+	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">32位</a>
 </div>
 
 屏幕边缘，复制搜索，短语替换功能无任何限制。

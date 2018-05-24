@@ -12,22 +12,24 @@ h1 {
 }
 h2 {
     font-size: 3em;
-    margin: 1em 0 .5em 0;
+    margin: .5em 0 .5em 0;
     font-weight: 300;
     line-height: 1.25;
     text-align: center;
 }
 .ms-store-dl {
   background-color: rgba(0, 120, 215, 1);
+  font-size: 16px;
+  padding: 6px 25px;
 }
 
 .desc-section {
-  margin-top: 6em;
+  margin-bottom: 5.5em;
 }
 
 .desc-section p {
   text-align: center;
-  margin: 10px 10%;
+  margin: 4px 10%;
   line-height: 1.6;
   color: #777;
 }
@@ -35,7 +37,7 @@ h2 {
 .desc-section img {
   width: 700px;
   max-width: 100%;
-  margin: 30px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 .pro_tip {
@@ -48,18 +50,11 @@ h2 {
 <h1 class="text-center">简单而强大的快捷工具</h1>
 <div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">方便高效、告别繁琐</div>
 
-<div class="text-center" style="margin-top: 30px; margin-bottom: 10px;">
-	<a href="/download">
-		<span class="btn btn-primary ms-store-dl" style="font-size: 16px; padding: 6px 25px;">
-			获取OneQuick
-		</span>
-		<br>
-		<span style="margin-top: 3px;">
-			<img src="/img/ms-logo.png" style="height: 14px;">
-			<span style="font-size: 10px; color: #0078d7;">已上架应用商店，Pro功能促销中</span>
-		</span>
+<div class="text-center" style="margin-top: 30px; margin-bottom: 6em;">
+	<a id="download-link" class="btn btn-primary ms-store-dl" href="https://www.microsoft.com/store/apps/9pfn5k6qxt46">
+		<img src="/img/ms-logo.png" style="height: 14px; margin-top: -2px;">
+		获取OneQuick
 	</a>
-
 	<p style="margin-top: 20px;">
 		<span style="color: #777;">关注：</span>
 		<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
@@ -69,12 +64,35 @@ h2 {
 	</p>
 </div>
 
+<script src="/javascripts/launch_uri.js"></script>
+<script>
+var store_protocol = "ms-windows-store://pdp/?productid=9PFN5K6QXT46";
+var store_url = "https://www.microsoft.com/store/apps/9pfn5k6qxt46";
+$("#download-link").click(function(event){
+	event.preventDefault();
+	openlink();
+});
+function openlink(){
+	launchUri(store_protocol, function(){
+		location.href = "/download";
+	},function(){
+		location.href = "/download";
+		window.open(store_url, "_blank");
+	},function(){
+		location.href = "/download";
+		window.open(store_url, "_blank");
+	})
+	ga('send', 'event', 'download', 'store', 'store-home-page');
+}
+</script>
 
 <div class="desc-section">
 	<h2>屏幕边缘操作</h2>
-	<p>鼠标甩到屏幕左上角：滚轮 = 调音量</p>
-	<p>瞬间静音，闭着眼睛都能调。</p>
-	<center><img src="/img/cn1screenborder.png"></center>
+	<p>鼠标移到屏幕左上角：滚轮 = 调音量</p>
+	<p>闭眼做到瞬间静音</p>
+	<center><img src="/img/gif/screen-volume.gif" style="max-width: 30em;"></center>
+	<p>音量、多媒体、标签页、翻页、应用、虚拟桌面...</p>
+	<p>无论何种操作，滚轮即可</p>
 </div>
 
 
@@ -82,44 +100,32 @@ h2 {
 	<h2>复制搜索一气呵成</h2>
 	<p>复制内容后一键搜索</p>
 	<p>还可以设置分组，一次打开多个网站</p>
-	<center><img src="/img/cn2copysearch.png"></center>
-</div>
-
-
-<div class="desc-section">
-	<h2>自定义热键！</h2>
-	<p>随心所欲</p>
-	<p>想怎么玩，就怎么玩</p>
-	<center><img src="/img/cn4custom.png"></center>
-</div>
-
-
-<div class="desc-section">
-	<h2>配置快捷切换</h2>
-	<p>还嫌不够灵活？</p>
-	<p>多个配置就是多个键盘布局，一键切换！</p>
-	<center><img src="/img/cn7config.png"></center>
-</div>
-
-
-<div class="desc-section">
-	<h2>更多功能</h2>
-	<p>短语替换、按键映射、窗口置顶、Chrome滚轮切换标签...</p>
 	<center>
-		<img src="/img/cn3rep.png">
-		<img src="/img/cn5map.png">
-		<img src="/img/cn6buildin.png">
+		<img src="/img/gif/copy-search.gif" style="max-width: 25em;">
+		<img src="/img/gif/copy-search-group.gif" style="max-width: 25em;">
 	</center>
 </div>
 
 
 <div class="desc-section">
-	<p style="font-size: smaller;
-    	font-weight: 700;
-    	color: #000000d9;">
-		软件迭代开发中，截图与实际可能不同
-	</p>
-	<p style="color: black;">
+	<h2>短语替换</h2>
+	<p>解决常用信息输入烦恼</p>
+	<center><img src="/img/gif/replace-phrase.gif" style="max-width: 35em;"></center>
+</div>
+
+
+
+<div class="desc-section">
+	<h2>更多强大的功能</h2>
+	<p>窗口置顶，透明度，键位更改，Chrome标签页滚轮...</p>
+	<p>任您自由组合定制</p>
+	<center><img src="/img/shot/cn4custom.png"></center>
+</div>
+
+
+
+<div class="desc-section">
+	<p style="color: black; text-decoration: underline;">
 		<a href="/download">前往下载</a>
 	</p>
 </div>

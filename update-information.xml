@@ -42,7 +42,7 @@
       <ChangeLog></ChangeLog>
     </VersionItem>
   </Versions>
-  <PromoTag>true</PromoTag>
+  <PromoTag>false</PromoTag>
   <AboutTextBlock>tip:
 1. 热键控件上点击右键可以更改确认键和清除键，这样就可以输入回车和退格了。
 2. 多媒体切换、窗口透明度需要当前程序支持，在某些情况下失效并不是bug。

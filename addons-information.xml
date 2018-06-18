@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-16"?>
 <AddonsInfo>
   <OnSale>1</OnSale>
-  <Filter>1</Filter>
+  <Filter>0</Filter>
   <Addons>
     <Addon>
       <Token>onequick_standard_annually</Token>

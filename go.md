@@ -8,6 +8,8 @@ var list = {
 	'home': '/',
 	'feedback': '/feedback',
 	'docs': '/docs',
+	'support': '/support',
+	'contact': '/support',
 	'change-log': '/download#change-log',
 }
 

@@ -10,9 +10,14 @@ OneQuick致力于做到简单方便，“开箱即用”。
 
 参照软件界面的说明，即可快速了解OneQuick能做到哪些事。
 
+### 遇到问题
+
 遇到运行错误、bug、以及功能需求，可参考[反馈页面](/go?feedback)到GitHub issues进行反馈。
 
 使用上的问题，及意见建议，可到[官方微博](http://weibo.com/onequick)留言及私信。
+
+更多联系方式参见[支持页面](/go?support)。
+
 
 # 基础功能
 

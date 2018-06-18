@@ -30,9 +30,10 @@ active: feedback
 
 #### 反馈方式
 
-Issues（推荐）: [github.com/OneQuick/OneQuick.net/issues](https://github.com/OneQuick/OneQuick.net/issues)  
-微博：[weibo.com/onequick](https://weibo.com/onequick)  
-邮箱：[support@onequick.org](mailto:support@onequick.org)  
+Issues地址: [github.com/OneQuick/OneQuick.net/issues](https://github.com/OneQuick/OneQuick.net/issues)  
+
+[其他联系方式](/go?contact)
+
 
 
 # 功能需求

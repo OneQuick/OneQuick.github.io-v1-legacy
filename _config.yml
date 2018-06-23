@@ -1,5 +1,9 @@
+domain: https://onequick.org
 permalink: /404.html
 
 exclude: ['serve.bat', 'generate.bat']
 
 stable-version: "1.2.3"
+
+plugins:
+  - jekyll-sitemap

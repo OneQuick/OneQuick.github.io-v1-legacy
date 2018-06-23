@@ -1,6 +1,7 @@
 ---
 layout: index
 title: jump page
+sitemap: false
 ---
 
 <script>

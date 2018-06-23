@@ -4,3 +4,4 @@ Disallow: /img/
 Disallow: /javascripts/
 Disallow: /stylesheets/
 Disallow: /*.xml
+Allow: /sitemap.xml

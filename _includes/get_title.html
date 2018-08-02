@@ -1,0 +1,9 @@
+{%- if include.name -%}{%- capture name -%}{{include.name}}{%- endcapture -%}{%- endif -%}
+{%- if include.lang -%}{%- capture lang -%}{{include.lang}}{%- endcapture -%}{%- endif -%}
+{%- assign doc_def = site.docs | where: "name", name | first -%}
+{%- assign doc = site.docs | where: "name", name | where: "lang", lang | first | default: doc_def -%}
+{%- assign title_splits = doc.title | split: '|' -%}
+{%- if lang == 'en' -%}{%- assign result = title_splits[0] -%}{%- endif -%}
+{%- if lang == 'cn' -%}{%- assign result = title_splits[1] -%}{%- endif -%}
+{%- if title_splits.size == 1 -%}{%- assign result = doc.title -%}{%- endif -%}
+{{ result }}

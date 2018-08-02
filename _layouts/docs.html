@@ -1,0 +1,142 @@
+---
+layout: index
+---
+<link rel="stylesheet" type="text/css" href="/static/bootstrap4/docs.min.css">
+<style>
+.bd-sidebar {
+  border-bottom: none;
+}
+.bd-sidebar ul.nav {
+  display: block;
+  padding-left: 12px;
+}
+.bd-toc-item:not(:first-child) {
+  margin-bottom: 1rem;
+}
+.bd-toc-item {
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .bd-sidebar >nav.bd-links {
+    max-height: calc(100vh - 4rem);
+  }
+}
+.bd-sidebar >nav .bd-toc-item a {
+  font-size: 110%;
+}
+.bd-sidebar >nav .bd-toc-item ul li a {
+  font-size: 90%;
+}
+.bd-sidebar >nav ul.nav > li.active > a,
+.bd-sidebar >nav ul.nav > li.active > a:hover
+{
+  font-weight: bold;
+  color: #000;
+}
+.bd-search-docs-toggle {
+  margin-top: 1em;
+}
+.docs-main-content {
+  margin-top: 1em;
+}
+@media (max-width: 768px) {
+  .docs-main-content {
+    margin-top: 2em;
+  }
+}
+.sidenav-h1-active >a {
+  font-weight: bold;
+  color: black;
+}
+.bd-sidebar, .bd-toc {
+  top: 0;
+}
+</style>
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+      <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3 collapsed" type="button" data-toggle="collapse" data-target=".bd-sidebar >nav.bd-links" data-mlang-title-cn='目录' data-mlang-title-en='Menu'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+      </button>
+      <nav class="bd-links collapse">
+        {% for m1 in site.data.docs-sidebar.order %}
+        <div class="bd-toc-item">
+          {% assign doc = m1.sub | first %}
+          {% include generate_a.html name=doc.name attribute='class="bd-toc-link"' %}
+          <ul class="nav">
+            {% for m2 in m1.sub %}
+            <li class="{% if m2.hide %}d-none{% endif %}">
+              {% include generate_a.html name=m2.name attribute='class="bd-toc-link"' %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </nav>
+      <script>
+$(function(){
+  var a = $('nav.bd-links > div > ul > li > a[href="'+location.pathname+'"]');
+  a.parent('li').addClass('active bd-sidenav-active');
+  if(a.parent('li').css('display') == 'none') {
+    a.parents('div.bd-toc-item').addClass('sidenav-h1-active');
+  }
+});
+      </script>
+    </div>
+    <link rel="stylesheet" href="/static/markdown/github-markdown.css">
+    <main class="docs-main-content toc-content markdown-body col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role='main'>
+{{content}}
+    <div style="height: 40vh;"></div>
+    </main>
+    <div class="d-none d-xl-block col-xl-2 bd-toc">
+      <div class="toc-render"></div>
+    </div>
+  </div>
+</div>
+<link rel="stylesheet" href="/static/tocbot/tocbot.css">
+<script src="/static/tocbot/tocbot.min.js"></script>
+<style>
+.toc-render {
+  border-left: 1px solid #eee;
+}
+.toc-render .is-active-link {
+  font-weight: normal;
+}
+@media (min-width: 1024px){
+  .toc-render .is-active-link {
+    font-weight: 500;
+    color: #007bff;
+  }
+}
+.toc-render ul, .toc-render ol {
+  list-style: none;
+}
+.toc-render li {
+  padding: 0px 0px 6px .6em;
+}
+.toc-render a {
+  color: #99979c;
+  text-decoration: none;
+}.toc-render a.toc-link {
+  height: auto;
+}
+</style>
+<script>
+$(function(){
+  function TocRender(body, target){
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: target,
+      // Where to grab the headings to build the table of contents.
+      contentSelector: body,
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h1, h2, h3',
+      scrollSmoothDuration: 200,
+      isCollapsedClass: 'is-collapsed-', //disable collapse
+    });
+  }
+  if($('h1, h2, h3').length > 2) {
+    TocRender('.toc-content', '.toc-render');
+  }
+});
+</script>

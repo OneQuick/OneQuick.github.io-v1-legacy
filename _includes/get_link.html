@@ -1,0 +1,5 @@
+{%- if include.name -%}{%- capture name -%}{{include.name}}{%- endcapture -%}{%- endif -%}
+{%- if include.lang -%}{%- capture lang -%}{{include.lang}}{%- endcapture -%}{%- endif -%}
+{%- assign doc_def = site.docs | where: "name", name | first -%}
+{%- assign doc = site.docs | where: "name", name | where: "lang", lang | first | default: doc_def -%}
+{{ doc.url }}

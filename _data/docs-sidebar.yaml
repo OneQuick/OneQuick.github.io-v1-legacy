@@ -1,0 +1,41 @@
+order:
+  - name: getting-started
+    sub:
+      - name: getting-started-index
+        hide: true
+      - name: download
+      - name: change-log
+      - name: news
+
+  - name: basic
+    sub:
+      - name: basic-index
+        hide: true
+
+  - name: pro
+    sub:
+      - name: pro-index
+        hide: true
+
+  - name: advanced
+    sub:
+      - name: advanced-index
+        hide: true
+      - name: how-it-works
+      - name: launch-parameters
+      - name: debug-mode
+
+  - name: support
+    sub:
+      - name: support-index
+        hide: true
+      - name: feedback
+      - name: known-issues
+      - name: feature-request
+
+  - name: about
+    sub:
+      - name: about-index
+        hide: true
+      - name: contribution
+      - name: privacy-policy

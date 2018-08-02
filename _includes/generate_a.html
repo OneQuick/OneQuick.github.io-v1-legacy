@@ -1,0 +1,9 @@
+{%- if include.attribute -%}{%- capture attribute -%}{{include.attribute}}{%- endcapture -%}{%- endif -%}
+{%- if include.name -%}{%- capture name -%}{{include.name}}{%- endcapture -%}{%- endif -%}
+{%- capture text_cn -%}{%- include get_title.html name=name lang='cn' -%}{%- endcapture -%}
+{%- capture url_cn -%}{%- include get_link.html name=name lang='cn' -%}{%- endcapture -%}
+{%- capture text_en -%}{%- include get_title.html name=name lang='en' -%}{%- endcapture -%}
+{%- capture url_en -%}{%- include get_link.html name=name lang='en' -%}{%- endcapture -%}
+<a {{attribute}} 
+data-mlang-text-cn='{{text_cn}}' data-mlang-href-cn='{{url_cn}}' 
+data-mlang-text-en='{{text_en}}' data-mlang-href-en='{{url_en}}'></a>

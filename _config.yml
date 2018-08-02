@@ -1,6 +1,17 @@
 domain: https://onequick.org
 permalink: /404.html
 
+collections:
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: docs
+    values:
+      layout: docs
+
 exclude: ['serve.bat', 'generate.bat']
 
 stable-version: "1.2.3"

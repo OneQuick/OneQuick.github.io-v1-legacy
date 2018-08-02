@@ -1,7 +1,6 @@
 ---
 title: OneQuick - 离不开的快捷工具
 layout: index
-active: index
 ---
 <style>
 h1 {
@@ -64,26 +63,14 @@ h2 {
 	</p>
 </div>
 
-<script src="/javascripts/launch_uri.js"></script>
 <script>
 var store_protocol = "ms-windows-store://pdp/?productid=9PFN5K6QXT46";
 var store_url = "https://www.microsoft.com/store/apps/9pfn5k6qxt46";
-$("#download-link").click(function(event){
-	event.preventDefault();
-	openlink();
-});
-function openlink(){
-	launchUri(store_protocol, function(){
-		location.href = "/download";
-	},function(){
-		location.href = "/download";
-		window.open(store_url, "_blank");
-	},function(){
-		location.href = "/download";
-		window.open(store_url, "_blank");
-	})
+LaunchUriBind("#download-link", store_protocol, '/download', function(){
+	window.open(store_url, "_blank");
+}, function(){
 	ga('send', 'event', 'download', 'store', 'store-home-page');
-}
+});
 </script>
 
 <div class="desc-section">
@@ -131,4 +118,18 @@ function openlink(){
 </div>
 
 <br>
-<br>
+
+<footer class="footer">
+	<div class="container">
+  <p class="text-muted">
+    <span class="">
+      <a href="http://xujinkai.net" target="_blank">作者主页</a>
+    </span>
+  </p>
+		<p class="text-muted">© 2016 - 2018 OneQuick.org. All Rights Reserved
+    <span class="">
+      <a href="https://github.com/OneQuick/OneQuick.github.io" target="_blank">hosted on GitHub</a>
+    </span>
+		</p>
+	</div>
+</footer>

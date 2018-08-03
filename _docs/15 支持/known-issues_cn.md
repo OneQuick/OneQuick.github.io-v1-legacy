@@ -9,8 +9,9 @@ permalink: /cn/support/known-issues
 
 - 屏幕亮度：暂不考虑。 [#16](https://github.com/OneQuick/OneQuick.net/issues/16)
 
-- 剪贴板历史：暂不考虑。  
-剪贴板与“热键工具”的定位不符，且考虑到微软RS5会有云剪贴板功能，精力有限。
+- 剪贴板历史：此功能与热键工具定位不符，已独立作为一款开源小工具上架应用商店。  
+商店链接[点此](https://www.microsoft.com/store/apps/9ND6WDNB4FW7)，源码地址：<https://github.com/XUJINKAI/Clipboards>。
+
 
 # 常见问题
 

@@ -5,7 +5,7 @@ name: log
 permalink: /cn/getting-started/log
 ---
 
-<div style="color: red; font-size: 2em;">专业版打折！ (2018/9/10 前)</div>
+<div style="color: red; font-size: 2em;">专业版打折！ 截至 2018/9/9</div>
 
 ## TODO List
 

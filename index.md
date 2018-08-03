@@ -1,5 +1,5 @@
 ---
-title: OneQuick - 离不开的快捷工具
+title: OneQuick - Windows 热键快捷工具
 layout: index
 ---
 <style>
@@ -44,9 +44,18 @@ h2 {
   font-weight: bolder;
 }
 </style>
+
+<p style="color: red;"><cn>
+  专业版夏季打折中；
+  <a href="/feedback" style="color: red;">寻求网站英文翻译</a>
+</cn></p>
+
 <div style="margin-top: 50px;"></div>
 
-<h1 class="text-center">简单而强大的快捷工具</h1>
+<h1 class="text-center">
+  <cn>强大方便的热键快捷工具</cn>
+  <en>Powerful and Handy Hotkey tool</en>
+</h1>
 <div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">方便高效、告别繁琐</div>
 
 <div class="text-center" style="margin-top: 30px; margin-bottom: 6em;">
@@ -106,8 +115,6 @@ h2 {
         <a href="/download">前往下载</a>
     </p>
 </div>
-
-<br>
 
 <hr>
 

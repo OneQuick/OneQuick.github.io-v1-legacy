@@ -7,6 +7,12 @@ permalink: /cn/pro/experimental
 
 ## 配置文件切换
 
+<style>
+img {
+	max-height: 20em;
+}
+</style>
+
 <img src="/img/shot/cn7config.png">
 
 可更改配置文件路径，或添加多个配置文件进行切换。

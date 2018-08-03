@@ -15,4 +15,4 @@ permalink: /cn/about/
 
 从<a href="https://github.com/XUJINKAI/OneQuick" target="_blank">AHK版</a>一路走来，感谢支持<span style="color: red;">❤</span>
 
-<img src="/img/comments-old.png">
+<a href="/img/comments-old.png" alt='Old comments'><img src="/img/comments-old.png" style="max-height: 40em;"></a>

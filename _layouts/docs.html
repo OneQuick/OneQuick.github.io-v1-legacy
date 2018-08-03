@@ -40,6 +40,9 @@ layout: index
 .docs-main-content {
   margin-top: 1em;
 }
+.docs-main-content img {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
 @media (max-width: 768px) {
   .docs-main-content {
     margin-top: 2em;
@@ -48,6 +51,12 @@ layout: index
 .sidenav-h1-active >a {
   font-weight: bold;
   color: black;
+}
+@media (min-width: 768px) {
+  .bd-sidebar, .bd-toc {
+    top: 3.6rem;
+    height: calc(100vh - 3.6rem);
+  }
 }
 </style>
 <div class="container-fluid">
@@ -74,7 +83,7 @@ layout: index
     </div>
     <main class="docs-main-content toc-content markdown-body anchor-body col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role='main'>
 {{content}}
-    <div style="height: 40vh;"></div>
+    <div style="height: 10rem;"></div>
     </main>
     <div class="d-none d-xl-block col-xl-2 bd-toc">
       <div class="toc-render"></div>

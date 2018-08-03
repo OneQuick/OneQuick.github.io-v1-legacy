@@ -1,37 +1,10 @@
 ---
-title: 高级功能
+title: 进阶
 lang: cn
-name: advanced-index
-permalink: /docs/cn/advanced
+name: advanced
+permalink: /cn/advanced/
 ---
 
-# 高级功能
-
-高级功能可进一步定制Windows的键鼠输入。
-
-高级功能是付费的，可查看付费说明了解更多。  
-
-<h2 id="Custom-Hotkey">自定义热键</h2>
-
-自定义热键非常强大，屏幕边缘和复制搜索功能都是自定义热键的特例。  
-
-此功能可以把任意键鼠组合的热键定义为其他功能。  
-
-<h2 id="Key-Mapping">按键映射</h2>
-
-按键映射可用于更改键盘布局，例如Dvorak布局。
-
-按键映射和自定义热键的区别：
-
-- 按键映射的输入输出都是单一按键，而自定义热键可以配合修饰键使用。
-- 按键映射的效果相当于键位的更改，所有跟此键有关的热键都会相应发生改变。  
-例如：按键映射A为Z，则按下`A`会输出z，按下`shift + A`会输出Z(大写)，按下`Ctrl + A`会执行撤销操作(Ctrl+Z)而不是全选。
-
-<h2 id="Configs">配置切换</h2>
-
-某些程序的操作会与OneQuick有些冲突。  
-例如某些播放器使用上一页/下一页控制多媒体切换，全屏播放视频时，我们并不希望屏幕边缘操作的翻页功能被误触。
-
-配置切换功能用于快速切换设定好的多个配置文件，避免上述情况发生。
-
- *此功能目前的实现很基础，将来会更加智能。
+<script>
+location = "{%- include get_link.html name='how-it-works' lang='cn' -%}";
+</script>

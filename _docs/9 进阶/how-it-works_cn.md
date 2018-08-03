@@ -2,7 +2,7 @@
 title: 运作原理
 lang: cn
 name: how-it-works
-permalink: /docs/cn/how-it-works
+permalink: /cn/advanced/how-it-works
 ---
 
 OneQuick内部定义了`触发`和`动作`两个大类。  

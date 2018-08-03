@@ -1,0 +1,3 @@
+{%- if include.name -%}{%- capture name -%}{{include.name}}{%- endcapture -%}{%- endif -%}
+{%- if include.lang -%}{%- capture lang -%}{{include.lang}}{%- endcapture -%}{%- endif -%}
+<a href="{% include get_link.html name=name lang=lang %}">{% include get_title.html name=name lang=lang %}</a>

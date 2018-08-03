@@ -1,41 +1,45 @@
 order:
-  - name: getting-started
+  - name: getting-started-index
     sub:
-      - name: getting-started-index
+      - name: getting-started
         hide: true
       - name: download
-      - name: change-log
-      - name: news
+      - name: log
 
-  - name: basic
+  - name: basic-index
     sub:
-      - name: basic-index
+      - name: basic
         hide: true
+      - name: features
+      - name: how-to-use
+      - name: how-to-use-deep
+      - name: config-file
 
-  - name: pro
+  - name: pro-index
     sub:
-      - name: pro-index
+      - name: pro
         hide: true
+      - name: custom-hotkey
+      - name: experimental
 
-  - name: advanced
+  - name: advanced-index
     sub:
-      - name: advanced-index
+      - name: advanced
         hide: true
       - name: how-it-works
       - name: launch-parameters
       - name: debug-mode
 
-  - name: support
+  - name: support-index
     sub:
-      - name: support-index
+      - name: support
         hide: true
       - name: feedback
       - name: known-issues
-      - name: feature-request
 
-  - name: about
+  - name: about-index
     sub:
-      - name: about-index
+      - name: about
         hide: true
       - name: contribution
       - name: privacy-policy

@@ -50,86 +50,72 @@ h2 {
 <div class="text-center" style="font-size: 18px; color: #777; margin-top: 15px;">方便高效、告别繁琐</div>
 
 <div class="text-center" style="margin-top: 30px; margin-bottom: 6em;">
-	<a id="download-link" class="btn btn-primary ms-store-dl" href="https://www.microsoft.com/store/apps/9pfn5k6qxt46">
-		<img src="/img/ms-logo.png" style="height: 14px; margin-top: -2px;">
-		获取OneQuick
-	</a>
-	<p style="margin-top: 20px;">
-		<span style="color: #777;">关注：</span>
-		<a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
-			<img src="/img/weibo-logo.png" style="height: 15px; margin-top: -4px;">
-			<span style="color: #393939;">OneQuick工具</span>
-		</a>
-	</p>
+    <a id="download-link" class="btn btn-primary ms-store-dl" href="/download?open=1">
+        <img src="/img/ms-logo.png" style="height: 14px; margin-top: -2px;">
+        获取OneQuick
+    </a>
+    <p style="margin-top: 20px;">
+        <span style="color: #777;">关注：</span>
+        <a href="http://weibo.com/onequick" target="_blank" title="@OneQuick工具">
+            <img src="/img/weibo-logo.png" style="height: 15px; margin-top: -4px;">
+            <span style="color: #393939;">OneQuick工具</span>
+        </a>
+    </p>
 </div>
 
-<script>
-var store_protocol = "ms-windows-store://pdp/?productid=9PFN5K6QXT46";
-var store_url = "https://www.microsoft.com/store/apps/9pfn5k6qxt46";
-LaunchUriBind("#download-link", store_protocol, '/download', function(){
-	window.open(store_url, "_blank");
-}, function(){
-	ga('send', 'event', 'download', 'store', 'store-home-page');
-});
-</script>
-
 <div class="desc-section">
-	<h2>屏幕边缘操作</h2>
-	<p>鼠标移到屏幕左上角：滚轮 = 调音量</p>
-	<p>闭眼做到瞬间静音</p>
-	<center><img src="/img/gif/screen-volume.gif" style="width: 30em;"></center>
-	<p>音量、多媒体、标签页、翻页、应用、虚拟桌面...</p>
-	<p>无论何种操作，滚轮即可</p>
+    <h2>屏幕边缘操作</h2>
+    <p>鼠标移到屏幕左上角：滚轮 = 调音量</p>
+    <p>闭眼做到瞬间静音</p>
+    <center><img src="/img/feature/screen-volume.gif" style="width: 30em;"></center>
+    <p>音量、多媒体、标签页、翻页、应用、虚拟桌面...</p>
+    <p>无论何种操作，滚轮即可</p>
 </div>
 
 
 <div class="desc-section">
-	<h2>复制搜索一气呵成</h2>
-	<p>复制内容后一键搜索</p>
-	<p>还可以设置分组，一次打开多个网站</p>
-	<center>
-		<img src="/img/gif/copy-search.gif" style="width: 25em;">
-		<img src="/img/gif/copy-search-group.gif" style="width: 25em;">
-	</center>
+    <h2>复制搜索一气呵成</h2>
+    <p>复制内容后一键搜索</p>
+    <p>还可以设置分组，一次打开多个网站</p>
+    <center>
+        <img src="/img/feature/copy-search.gif" style="width: 25em;">
+        <img src="/img/feature/copy-search-group.gif" style="width: 25em;">
+    </center>
 </div>
 
 
 <div class="desc-section">
-	<h2>短语替换</h2>
-	<p>解决常用信息输入烦恼</p>
-	<center><img src="/img/gif/replace-phrase.gif" style="width: 35em;"></center>
+    <h2>短语替换</h2>
+    <p>解决常用信息输入烦恼</p>
+    <center><img src="/img/feature/replace-phrase.gif" style="width: 35em;"></center>
 </div>
 
 
 
 <div class="desc-section">
-	<h2>更多强大的功能</h2>
-	<p>窗口置顶，透明度，键位更改，Chrome标签页滚轮...</p>
-	<p>任您自由组合定制</p>
-	<center><img src="/img/shot/cn4custom.png"></center>
+    <h2>更多强大的功能</h2>
+    <p>窗口置顶，透明度，键位更改，Chrome标签页滚轮...</p>
+    <p>任您自由组合定制</p>
+    <center><img src="/img/shot/cn4custom.png"></center>
 </div>
 
 
 
 <div class="desc-section">
-	<p style="color: black; text-decoration: underline;">
-		<a href="/download">前往下载</a>
-	</p>
+    <p style="color: black; text-decoration: underline;">
+        <a href="/download">前往下载</a>
+    </p>
 </div>
 
 <br>
 
+<hr>
+
 <footer class="footer">
-	<div class="container">
-  <p class="text-muted">
-    <span class="">
-      <a href="http://xujinkai.net" target="_blank">作者主页</a>
-    </span>
-  </p>
-		<p class="text-muted">© 2016 - 2018 OneQuick.org. All Rights Reserved
-    <span class="">
-      <a href="https://github.com/OneQuick/OneQuick.github.io" target="_blank">hosted on GitHub</a>
-    </span>
-		</p>
-	</div>
+    <div class="container">
+        <p class="text-muted">
+            <span>© 2016 - 2018 OneQuick.org</span>
+            <span class="float-right"><a href="https://github.com/OneQuick/OneQuick.github.io" target="_blank">hosted on GitHub</a></span>
+        </p>
+    </div>
 </footer>

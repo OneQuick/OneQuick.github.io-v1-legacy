@@ -24,14 +24,10 @@ data-mlang-href-<code>
     Sheet.addRule(selector, style);
   };
   function ClearClass(className){
-    document.querySelectorAll('.'+className).forEach(function(ele){
-      ele.classList.remove(className);
-    });
+    $('.'+className).removeClass(className);
   };
   function SetClass(selector, className){
-    document.querySelectorAll(selector).forEach(function(ele){
-      ele.classList.add(className);
-    });
+    $(selector).addClass(className);
   };
   function SetLang(code) {
     localStorage.setItem(LocalStorageKey, code);
@@ -81,11 +77,12 @@ data-mlang-href-<code>
     if(!JumpUrl(last_lang, code)){
       DisplayLang(code);
     }
-    MLANG.ChangeHooks.forEach(function(func){
-      if(typeof func == 'function') {
-        func(code);
+    for (var i = MLANG.ChangeHooks.length - 1; i >= 0; i--) {
+      var item = MLANG.ChangeHooks[i];
+      if(typeof item == 'function') {
+        item(code);
       }
-    });
+    }
   };
   function MLANG(code){
     if(code===undefined) {

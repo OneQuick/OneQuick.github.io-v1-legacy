@@ -2,9 +2,15 @@
 title: 已知问题
 lang: 
 name: known-issues
-permalink: /docs/cn/support/known-issues
+permalink: /cn/support/known-issues
 ---
 
+# 功能需求
+
+- 屏幕亮度：暂不考虑。 [#16](https://github.com/OneQuick/OneQuick.net/issues/16)
+
+- 剪贴板历史：暂不考虑。  
+剪贴板与“热键工具”的定位不符，且考虑到微软RS5会有云剪贴板功能，精力有限。
 
 # 常见问题
 
@@ -12,11 +18,22 @@ permalink: /docs/cn/support/known-issues
 
 - 据反馈，360会与OneQuick冲突。 [解决办法 #32](https://github.com/OneQuick/OneQuick.net/issues/32)
 
+- 失效请先排查
+
+  - 多媒体切换、窗口置顶及透明度、虚拟桌面无效。  
+多媒体切换需要播放器监听对应按键；  
+窗口操作并非OneQuick“独家”控制，对应应用是可以自己改回去的；  
+虚拟桌面指win10系统的虚拟桌面，需要先新建多个桌面才能进行切换。
+
+  - 由于系统限制，以管理员身份运行的程序和普通程序之间无法互通。  
+排查方法：先退出程序，再以管理员身份运行OneQuick，测试效果。  
+参考链接：https://docs.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-prepare
+
 
 # 各版本已知问题列表
 
 
-<h2 data-toc-text="从1.2前升级而来">从旧版(1.2之前)升级上来可能遇到的问题</h2>
+## 从1.2之前升级而来
 
 - 程序窗口自动弹出。解决办法：为显示/隐藏界面的快捷键随便设置一个按键，再删除掉。
 

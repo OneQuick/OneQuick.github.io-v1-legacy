@@ -1,6 +1,7 @@
 ---
 layout: index
 ---
+<link rel="stylesheet" href="/static/markdown/github-markdown.css">
 <link rel="stylesheet" type="text/css" href="/static/bootstrap4/docs.min.css">
 <style>
 .bd-sidebar {
@@ -48,9 +49,6 @@ layout: index
   font-weight: bold;
   color: black;
 }
-.bd-sidebar, .bd-toc {
-  top: 0;
-}
 </style>
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
@@ -73,18 +71,8 @@ layout: index
         </div>
         {% endfor %}
       </nav>
-      <script>
-$(function(){
-  var a = $('nav.bd-links > div > ul > li > a[href="'+location.pathname+'"]');
-  a.parent('li').addClass('active bd-sidenav-active');
-  if(a.parent('li').css('display') == 'none') {
-    a.parents('div.bd-toc-item').addClass('sidenav-h1-active');
-  }
-});
-      </script>
     </div>
-    <link rel="stylesheet" href="/static/markdown/github-markdown.css">
-    <main class="docs-main-content toc-content markdown-body col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role='main'>
+    <main class="docs-main-content toc-content markdown-body anchor-body col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role='main'>
 {{content}}
     <div style="height: 40vh;"></div>
     </main>
@@ -121,8 +109,32 @@ $(function(){
   height: auto;
 }
 </style>
+<script src="/static/anchor/anchor.min.js"></script>
 <script>
+// anchor
+document.addEventListener("DOMContentLoaded", function(event) {
+  anchors.options = {
+
+  };
+  anchors.add(".anchor-body h1, .anchor-body h2, .anchor-body h3, .anchor-body h4, .anchor-body h5");
+})
 $(function(){
+  //sidebar
+  var a = $('nav.bd-links > div > ul > li > a[href="'+location.pathname+'"]');
+  a.parent('li').addClass('active bd-sidenav-active');
+  if(a.parent('li').css('display') == 'none') {
+    a.parents('div.bd-toc-item').addClass('sidenav-h1-active');
+  };
+  // content
+  document.querySelectorAll('.docs-main-content a').forEach(function(element){
+    element.addEventListener('click', function(event){
+      if(/^((https?:)?\/\/|mailto:)/.test(element.getAttribute('href'))) {
+        event.preventDefault();
+        window.open(element.href);
+      }
+    })
+  });
+  // toc
   function TocRender(body, target){
     tocbot.init({
       // Where to render the table of contents.

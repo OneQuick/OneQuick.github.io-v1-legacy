@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <meta name="keywords" content="OneQuick, Screen Border, Hot Corner, Hotkey, AutoHotkey">
   <meta name="author" content="xujinkai.net">
-  <title>{{page.title}}{% if page.url != '/' %} | OneQuick{% endif %}</title>
+  <title>{{page.title}}{% if page.url != '/' %} | OneQuick.org{% endif %}</title>
   <script src="/static/jquery/jquery-3.3.1.min.js"></script>
   <link href="/static/bootstrap4/css/bootstrap.min.css" rel="stylesheet"/>
   <script src="/static/bootstrap4/js/bootstrap.bundle.min.js"></script>
@@ -16,23 +16,6 @@
     // Init Multi lang
     MLANG.ActiveClassName = 'mlang-active';
     MLANG.Init();
-    // activable a -> active
-    $(function(){
-      if(window.ADDACTIVE==undefined || window.ADDACTIVE) {
-        var added = false;
-        $('.activable a').each(function(idx, ele){
-          if(!added && location.href.startsWith(ele.href)){
-            $(ele).addClass('active');
-            added = true;
-          }
-        });
-        $('a.activable').each(function(idx, ele){
-          if(location.href.startsWith(ele.href)) {
-            $(ele).addClass('active');
-          }
-        });
-      }
-    });
   </script>
   <style>
 * {
@@ -44,16 +27,6 @@
 }
 header img {
   max-height: 22px;
-}
-header nav .activable a,
-header nav a.activable{
-  color: rgba(255, 255, 255, 0.60);
-  font-weight: 100;
-}
-header nav .activable a.active,
-header nav a.activable.active {
-  color: rgba(255, 255, 255, 1);
-  font-weight: 500;
 }
 header {
   background-color: rgba(23, 28, 31, 0.95);
@@ -69,6 +42,15 @@ header {
   }
 }
 header nav a {
+  color: rgba(255, 255, 255, 0.95);
+}
+header nav a:hover {
+  color: white;
+}
+header nav .navbar-links-div a {
+  color: rgba(255, 255, 255, 0.70);
+}
+header nav .navbar-links-div a:hover {
   color: white;
 }
 header .nav-logo {
@@ -97,41 +79,46 @@ body img{
         <img src="/favicon.ico" class="nav-logo">
         <span>OneQuick</span>
       </a>
-      <div class="navbar-menu activable">
+      <div class="navbar-menu navbar-links-div">
         <ul class="navbar-nav mr-auto flex-row">
           <li class="nav-item">
             <a class="nav-link" 
+              data-mlang-text-cn="下载" 
+              data-mlang-text-en="Download" 
               data-mlang-href-cn="{%- include get_link.html name='download' lang='cn' -%}"
               data-mlang-href-en="{%- include get_link.html name='download' lang='en' -%}">
-              <cn>下载</cn><en>Download</en>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" 
-              data-mlang-href-cn="{%- include get_link.html name='pro-index' lang='cn' -%}"
-              data-mlang-href-en="{%- include get_link.html name='pro-index' lang='en' -%}">
-              <cn>专业版</cn><en>Pro</en>
+              data-mlang-text-cn="专业版" 
+              data-mlang-text-en="Pro" 
+              data-mlang-href-cn="{%- include get_link.html name='pro' lang='cn' -%}"
+              data-mlang-href-en="{%- include get_link.html name='pro' lang='en' -%}">
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" 
-              data-mlang-href-cn="{%- include get_link.html name='news' lang='cn' -%}"
-              data-mlang-href-en="{%- include get_link.html name='news' lang='en' -%}">
-              <cn>新闻</cn><en>News</en>
+              data-mlang-text-cn="日志" 
+              data-mlang-text-en="Log" 
+              data-mlang-href-cn="{%- include get_link.html name='log' lang='cn' -%}"
+              data-mlang-href-en="{%- include get_link.html name='log' lang='en' -%}">
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" 
+              data-mlang-text-cn="反馈" 
+              data-mlang-text-en="Feedback" 
               data-mlang-href-cn="{%- include get_link.html name='feedback' lang='cn' -%}"
               data-mlang-href-en="{%- include get_link.html name='feedback' lang='en' -%}">
-              <cn>反馈</cn><en>Feedback</en>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" 
-              data-mlang-href-cn="{%- include get_link.html name='getting-started-index' lang='cn' -%}"
-              data-mlang-href-en="{%- include get_link.html name='getting-started-index' lang='en' -%}">
-              <cn>文档</cn><en>Documentation</en>
+              data-mlang-text-cn="文档" 
+              data-mlang-text-en="Documentation" 
+              data-mlang-href-cn="{%- include get_link.html name='getting-started' lang='cn' -%}"
+              data-mlang-href-en="{%- include get_link.html name='getting-started' lang='en' -%}">
             </a>
           </li>
         </ul>
@@ -168,12 +155,10 @@ body img{
               <img src="/img/ms-logo.png"> <cn>获取</cn><en>Get</en>
             </a>
             <script>
-              document.querySelectorAll('.ms-logo-get').forEach(function(element){
-                element.addEventListener('click', function(event){
-                  event.preventDefault();
-                  location = '/download?open=1';
-                })
-              })
+              $('.ms-logo-get').click(function(event){
+                event.preventDefault();
+                location = '/download?open=1';
+              });
             </script>
           </li>
         </ul>

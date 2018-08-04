@@ -2,7 +2,7 @@
 title: 支持
 lang: cn
 name: support
-permalink: /cn/support/
+permalink: /support/
 ---
 
 <script>

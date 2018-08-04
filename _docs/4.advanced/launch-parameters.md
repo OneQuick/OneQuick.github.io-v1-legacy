@@ -2,7 +2,7 @@
 title: 启动参数
 lang: cn
 name: launch-parameters
-permalink: /cn/advanced/launch-parameters
+permalink: /advanced/launch-parameters/
 ---
 OneQuick支持参数启动。  
 开机启动功能即使用`-h`参数启动。

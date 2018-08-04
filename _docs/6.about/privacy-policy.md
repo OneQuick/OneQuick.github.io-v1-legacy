@@ -2,7 +2,7 @@
 title: Privacy Policy | 隐私政策
 lang: 
 name: privacy-policy
-permalink: /privacy-policy
+permalink: /privacy-policy/
 ---
 OneQuick不会收集个人信息，但会发送一些统计信息，这些信息会帮助作者了解软件运行状况以及确定未来开发方向。
 

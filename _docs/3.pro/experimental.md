@@ -2,7 +2,7 @@
 title: 实验性功能
 lang: cn
 name: experimental
-permalink: /cn/pro/experimental
+permalink: /pro/experimental/
 ---
 
 ## 配置文件切换

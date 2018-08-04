@@ -2,7 +2,7 @@
 title: 开始
 lang: cn
 name: getting-started
-permalink: /cn/getting-started/
+permalink: /getting-started/
 ---
 
 <h1 class="js-toc-ignore">开始</h1>

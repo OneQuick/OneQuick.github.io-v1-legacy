@@ -2,7 +2,7 @@
 title: 配置文件
 lang: cn
 name: config-file
-permalink: /cn/basic/config-file
+permalink: /basic/config-file/
 ---
 
 OneQuick 的设置是自动保存的，因此绝大部分时候，您无需关心配置文件的情况。

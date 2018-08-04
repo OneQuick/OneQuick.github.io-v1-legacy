@@ -1,8 +1,8 @@
 ---
-title: 下载
-lang: cn
+title: Download | 下载
+lang: cn en
 name: download
-permalink: /cn/getting-started/download
+permalink: /download/
 ---
 
 # 应用商店版

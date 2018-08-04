@@ -2,7 +2,7 @@
 title: 反馈
 lang: cn
 name: feedback
-permalink: /cn/support/feedback
+permalink: /feedback/
 ---
 
 # 反馈

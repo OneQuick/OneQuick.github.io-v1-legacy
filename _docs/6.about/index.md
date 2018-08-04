@@ -2,7 +2,7 @@
 title: 关于
 lang: 
 name: about
-permalink: /cn/about/
+permalink: /about/
 ---
 
 作者：<https://xujinkai.net>

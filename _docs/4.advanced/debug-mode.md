@@ -2,7 +2,7 @@
 title: Debug模式
 lang: cn
 name: debug-mode
-permalink: /cn/advanced/debug-mode
+permalink: /advanced/debug-mode/
 ---
 
 在OneQuick界面按下`Alt + Shift + D`即可开启。  

@@ -2,7 +2,7 @@
 title: 进阶
 lang: cn
 name: advanced
-permalink: /cn/advanced/
+permalink: /advanced/
 ---
 
 <script>

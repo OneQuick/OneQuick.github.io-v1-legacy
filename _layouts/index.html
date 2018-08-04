@@ -45,6 +45,9 @@ header {
     z-index: 1071;
   }
 }
+header nav .flex-row {
+  flex-flow: wrap;
+}
 header nav a {
   color: rgba(255, 255, 255, 0.95);
 }
@@ -95,8 +98,9 @@ body img{
           </li>
           <li class="nav-item">
             <a class="nav-link" 
-              data-mlang-text-cn="专业版" 
-              data-mlang-text-en="Pro" 
+              style="color: red;"
+              data-mlang-text-cn="专业版(夏季打折中)" 
+              data-mlang-text-en="Pro(Discount)" 
               data-mlang-href-cn="{%- include get_link.html name='pro' lang='cn' -%}"
               data-mlang-href-en="{%- include get_link.html name='pro' lang='en' -%}">
             </a>
@@ -124,6 +128,9 @@ body img{
               data-mlang-href-cn="{%- include get_link.html name='getting-started' lang='cn' -%}"
               data-mlang-href-en="{%- include get_link.html name='getting-started' lang='en' -%}">
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contribution/" style="color: red;">寻求英文翻译</a>
           </li>
         </ul>
       </div>

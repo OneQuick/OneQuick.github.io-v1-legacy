@@ -2,7 +2,7 @@
 title: 如何使用
 lang: cn
 name: how-to-use
-permalink: /cn/basic/how-to-use
+permalink: /basic/how-to-use/
 ---
 
 > 本篇讲解基础的使用，建议阅读{% include a.html name='how-to-use-deep' lang='cn' %}了解更多。

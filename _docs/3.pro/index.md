@@ -2,7 +2,7 @@
 title: 专业版
 lang: cn
 name: pro
-permalink: /cn/pro/
+permalink: /pro/
 ---
 
 > 为了保持开发节奏与软件活力，对高级功能采取订阅付费制。  

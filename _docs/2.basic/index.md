@@ -2,7 +2,7 @@
 title: 基础
 lang: cn
 name: basic
-permalink: /cn/basic/
+permalink: /basic/
 ---
 
 OneQuick 采用符合直觉的设计，功能设计融入系统自身的框架内，降低使用门槛。  

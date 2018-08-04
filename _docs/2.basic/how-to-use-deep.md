@@ -2,7 +2,7 @@
 title: 深入设置
 lang: cn
 name: how-to-use-deep
-permalink: /cn/basic/how-to-use-deep
+permalink: /basic/how-to-use-deep/
 ---
 
 # 概念

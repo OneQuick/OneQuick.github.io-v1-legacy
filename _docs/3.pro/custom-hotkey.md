@@ -2,7 +2,7 @@
 title: 自定义热键
 lang: cn
 name: custom-hotkey
-permalink: /cn/pro/custom-hotkey
+permalink: /pro/custom-hotkey/
 ---
 
 <style>

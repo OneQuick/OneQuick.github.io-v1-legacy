@@ -45,11 +45,6 @@ h2 {
 }
 </style>
 
-<p style="color: red;"><cn>
-  专业版夏季打折中；
-  <a href="/feedback" style="color: red;">寻求网站英文翻译</a>
-</cn></p>
-
 <div style="margin-top: 50px;"></div>
 
 <h1 class="text-center">

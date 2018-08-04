@@ -2,7 +2,7 @@
 title: 已知问题
 lang: 
 name: known-issues
-permalink: /cn/support/known-issues
+permalink: /known-issues/
 ---
 
 # 功能需求

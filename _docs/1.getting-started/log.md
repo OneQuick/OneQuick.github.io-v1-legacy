@@ -2,10 +2,8 @@
 title: Log | 日志
 lang: 
 name: log
-permalink: /cn/getting-started/log
+permalink: /log/
 ---
-
-<div style="color: red; font-size: 2em;">专业版打折！ 截至 2018/9/9</div>
 
 ## TODO List
 

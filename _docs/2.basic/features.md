@@ -2,7 +2,7 @@
 title: 主打功能
 lang: cn
 name: features
-permalink: /cn/basic/features
+permalink: /basic/features/
 ---
 
 > 与繁琐说再见

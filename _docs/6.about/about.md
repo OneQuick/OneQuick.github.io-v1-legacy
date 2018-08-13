@@ -1,9 +1,11 @@
 ---
-title: 关于
+title: About | 关于
 lang: 
 name: about
 permalink: /about/
 ---
+
+# 关于
 
 作者：<https://xujinkai.net>
 

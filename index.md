@@ -1,5 +1,5 @@
 ---
-title: OneQuick - Windows 热键快捷工具
+title: OneQuick 热键工具 | Hotkey Tool
 layout: index
 ---
 <style>

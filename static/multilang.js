@@ -16,12 +16,13 @@ data-mlang-href-<code>
   document.head.appendChild(_style);
   var Sheet = _style.sheet;
   function ClearStyle(){
-    for (var i = Sheet.rules.length - 1; i >= 0; i--) {
+    for (var i = Sheet.cssRules.length - 1; i >= 0; i--) {
       Sheet.deleteRule(0);
     }
   };
   function SetStyle(selector, style){
-    Sheet.addRule(selector, style);
+    // Sheet.addRule(selector, style); // Firefox not support
+    Sheet.insertRule(selector+'{'+style+'}', 0);
   };
   function ClearClass(className){
     $('.'+className).removeClass(className);

@@ -4,15 +4,16 @@ order:
       - name: getting-started
         hide: true
       - name: download
-      - name: log
+      - name: change-log
+      - name: known-issues
 
   - name: basic-index
     sub:
       - name: basic
         hide: true
-      - name: features
+      - name: concepts
       - name: how-to-use
-      - name: how-to-use-deep
+      - name: command-line
       - name: config-file
 
   - name: pro-index
@@ -26,20 +27,13 @@ order:
     sub:
       - name: advanced
         hide: true
-      - name: how-it-works
       - name: launch-parameters
       - name: debug-mode
-
-  - name: support-index
-    sub:
-      - name: support
-        hide: true
-      - name: feedback
-      - name: known-issues
 
   - name: about-index
     sub:
       - name: about
         hide: true
+      - name: support
       - name: contribution
       - name: privacy-policy

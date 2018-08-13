@@ -1,14 +1,11 @@
 ---
-title: Log | 日志
-lang: 
-name: log
-permalink: /log/
+title: Change Log | 更新日志
+lang: cn en
+name: change-log
+permalink: /change-log/
 ---
 
-## TODO List
-
-- (working) 大重构，为2.0版本准备。[重构出的类库地址](https://github.com/XUJINKAI/XJKdotNetLibrary)
-
+> 查看{% include a.html name="known-issues" lang="cn" %}了解作者正在做的工作。
 
 ## 1.2.3 (2018/5/16)  
 

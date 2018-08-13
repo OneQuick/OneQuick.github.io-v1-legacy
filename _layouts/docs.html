@@ -109,7 +109,7 @@ layout: index
   list-style: none;
 }
 .toc-render li {
-  padding: 0px 0px 6px .6em;
+  padding: 6px 0px 0px .6em;
 }
 .toc-render a {
   color: #99979c;
@@ -120,13 +120,29 @@ layout: index
 </style>
 <script src="/static/anchor/anchor.min.js"></script>
 <script>
-// anchor
-document.addEventListener("DOMContentLoaded", function(event) {
-  anchors.options = {
-
-  };
+function TocRender(body, target){
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: target,
+    // Where to grab the headings to build the table of contents.
+    contentSelector: body,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3',
+    scrollSmoothDuration: 200,
+    isCollapsedClass: 'is-collapsed-', //disable collapse
+  });
+}
+function Rerender(){
   anchors.add(".anchor-body h1, .anchor-body h2, .anchor-body h3, .anchor-body h4, .anchor-body h5");
-})
+  {% if page.toc != false %}
+  if($('h1, h2, h3').length > 2) {
+    TocRender('.toc-content', '.toc-render');
+  }
+  {% endif %}
+}
+MLANG.ChangeHooks.push(function(){
+  Rerender();
+});
 $(function(){
   //sidebar
   var a = $('nav.bd-links > div > ul > li > a[href="'+location.pathname+'"]');
@@ -143,21 +159,6 @@ $(function(){
       }
     })
   });
-  // toc
-  function TocRender(body, target){
-    tocbot.init({
-      // Where to render the table of contents.
-      tocSelector: target,
-      // Where to grab the headings to build the table of contents.
-      contentSelector: body,
-      // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h1, h2, h3',
-      scrollSmoothDuration: 200,
-      isCollapsedClass: 'is-collapsed-', //disable collapse
-    });
-  }
-  if($('h1, h2, h3').length > 2) {
-    TocRender('.toc-content', '.toc-render');
-  }
+  Rerender();
 });
 </script>

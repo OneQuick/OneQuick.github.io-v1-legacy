@@ -1,0 +1,9 @@
+{%- if include.name -%}{%- capture name -%}{{include.name}}{%- endcapture -%}{%- endif -%}
+{%- if include.lang -%}{%- capture lang -%}{{include.lang}}{%- endcapture -%}{%- endif -%}
+
+<span style="font-size: 2em;">Redirect to {% include generate_a.html name=name lang=lang %}...</span>
+<script>
+setTimeout(function(){
+    location="{% include get_link.html name=name lang=lang %}";
+}, 0);
+</script>

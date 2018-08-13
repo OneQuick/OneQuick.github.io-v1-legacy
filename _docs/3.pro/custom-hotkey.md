@@ -7,7 +7,7 @@ permalink: /pro/custom-hotkey/
 
 <style>
 img {
-	max-height: 20em;
+	max-height: 30em;
 }
 </style>
 

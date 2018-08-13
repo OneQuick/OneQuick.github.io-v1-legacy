@@ -5,7 +5,7 @@ name: config-file
 permalink: /basic/config-file/
 ---
 
-OneQuick 的设置是自动保存的，因此绝大部分时候，您无需关心配置文件的情况。
+OneQuick 的设置是**自动保存**的，因此绝大部分时候，您无需关心配置文件的情况。
 
 某些情况下，您可能需要手动备份配置文件（例如重置系统时）。
 

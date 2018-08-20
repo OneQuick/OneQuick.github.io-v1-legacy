@@ -12,7 +12,7 @@ order:
       - name: basic
         hide: true
       - name: concepts
-      - name: how-to-use
+      - name: hotkey
       - name: command-line
       - name: config-file
 

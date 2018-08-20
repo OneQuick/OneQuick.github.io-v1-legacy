@@ -14,7 +14,7 @@ defaults:
 
 exclude: ['serve.bat', 'generate.bat']
 
-stable-version: "1.2.3"
+stable-version: "1.2.5"
 
 plugins:
   - jekyll-sitemap

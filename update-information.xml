@@ -12,9 +12,7 @@
       <Version>{{site.stable-version}}</Version>
       <X86Url>https://onequick.org/bin/OneQuick.{{site.stable-version}}.x86.zip</X86Url>
       <X64Url>https://onequick.org/bin/OneQuick.{{site.stable-version}}.x64.zip</X64Url>
-      <ChangeLog>优化UI、托盘菜单及图标。
-修复一个导致崩溃的bug。
-完善崩溃时日志的记录。</ChangeLog>
+      <ChangeLog>[1.2.5] 尝试修复弹窗bug。</ChangeLog>
     </VersionItem>
     <VersionItem>
       <Tag>桌面预览版</Tag>
@@ -42,7 +40,7 @@
       <ChangeLog></ChangeLog>
     </VersionItem>
   </Versions>
-  <PromoTag>false</PromoTag>
+  <PromoTag>true</PromoTag>
   <AboutTextBlock>tip:
 1. 热键控件上点击右键可以更改确认键和清除键，这样就可以输入回车和退格了。
 2. 多媒体切换、窗口透明度需要当前程序支持，在某些情况下失效并不是bug。

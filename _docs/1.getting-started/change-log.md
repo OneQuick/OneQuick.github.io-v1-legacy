@@ -7,6 +7,10 @@ permalink: /change-log/
 
 > 查看{% include a.html name="known-issues" lang="cn" %}了解作者正在做的工作。
 
+## 1.2.5 (2018/8/19)
+
+尝试修复弹窗bug。
+
 ## 1.2.3 (2018/5/16)  
 
 优化UI、托盘菜单及图标。  

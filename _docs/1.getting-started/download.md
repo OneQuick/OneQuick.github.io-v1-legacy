@@ -44,6 +44,6 @@ toc: false
 	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x32</a>
 </div>
 
-<p><a href="/bin"><cn>历史版本</cn><en>Historys</en></a></p>
+<p><a href="https://github.com/OneQuick/OneQuick.github.io/tree/master/bin"><cn>历史版本</cn><en>Historys</en></a></p>
 
 {% include download-open.html %}

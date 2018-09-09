@@ -5,6 +5,8 @@ name: custom-hotkey
 permalink: /pro/custom-hotkey/
 ---
 
+> 免费版会限制数量以供体验。
+
 <style>
 img {
 	max-height: 30em;
@@ -13,6 +15,6 @@ img {
 
 <img src="/img/shot/cn4custom.png">
 
-免费版会限制数量以供体验。
+关于“模拟热键”的设置请参考{% include a.html name='hotkey' lang='cn' %}页面。
 
-未来会推出更多控制选项。
+关于“运行命令”的设置请参考{% include a.html name='command-line' lang='cn' %}页面。

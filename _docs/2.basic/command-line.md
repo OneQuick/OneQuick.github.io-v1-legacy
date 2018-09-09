@@ -32,11 +32,15 @@ OneQuick目前无法直接识别替换系统变量（如运行`explorer %systemr
 
 除cmd外，`runas`，`powershell`也可以用于执行命令。
 
-了解相关C#代码可参考博文[C# ProcessStartInfo参数及常见启动程序方式](https://xujinkai.net/posts/csharp-use-process-run-command)
-
 
 # 常见命令举例
 
-> 这里列举了常见的一些命令供参考，作者也会将其中使用频繁的命令加入自带设置中。
+- 使用资源管理器打开文件夹 `explorer d:`
 
-- 编辑HOSTS文件 `cmd /c powershell.exe (Start-Process notepad %systemroot%/system32/drivers/etc/hosts -Verb runAs -Wait) -and (ipconfig -flushdns)`
+- 使用资源管理器选中文件 `explorer /select, c:\windows`
+
+- 使用记事本编辑HOSTS文件 `cmd /c powershell.exe (Start-Process notepad %systemroot%/system32/drivers/etc/hosts -Verb runAs -Wait) -and (ipconfig -flushdns)`
+
+---
+
+了解相关C#代码可参考博文[C# ProcessStartInfo参数及常见启动程序方式](https://xujinkai.net/posts/csharp-use-process-run-command)

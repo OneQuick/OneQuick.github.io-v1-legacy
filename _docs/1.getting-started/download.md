@@ -26,24 +26,20 @@ toc: false
 | Update | by Store | by App |
 </markdown></en>
 
----
 
-<cn>获取应用商店版（推荐）</cn><en>Microsoft Store Link (Recommended)</en>
-
+<p style="font-size: 18px; margin-top: 10px;">
 <a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46">
 	<img src="/img/ms-logo.png" style="height: 20px; margin: -3px 5px 0 6px;">
-	<span><cn>点击获取</cn><en>Get in Store</en></span>
+	<span><cn>点击获取应用商店版</cn><en>Get in Microsoft Store</en></span>
 </a>
+</p>
 
----
+<p>
+<cn>桌面下载版</cn><en>Desktop Version</en>
+<a href="https://github.com/OneQuick/OneQuick.github.io/tree/master/bin">
+<cn>历史版本</cn><en>Historys</en>
+</a>
+</p>
 
-<cn>下载桌面版</cn><en>Desktop Version</en>
-
-<div style="margin: 10px 0;">
-	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x64.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x64');">x64</a>
-	<a class="m-color" href="/bin/OneQuick.{{site.stable-version}}.x86.zip" onclick="ga('send', 'event', 'download', 'desktop', 'x86');">x32</a>
-</div>
-
-<p><a href="https://github.com/OneQuick/OneQuick.github.io/tree/master/bin"><cn>历史版本</cn><en>Historys</en></a></p>
 
 {% include download-open.html %}

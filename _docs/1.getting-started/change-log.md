@@ -5,8 +5,6 @@ name: change-log
 permalink: /change-log/
 ---
 
-> 查看{% include a.html name="known-issues" lang="cn" %}了解作者正在做的工作。
-
 ## 1.2.5 (2018/8/19)
 
 尝试修复弹窗bug。

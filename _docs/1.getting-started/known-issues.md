@@ -5,8 +5,6 @@ name: known-issues
 permalink: /known-issues/
 ---
 
-> 使用方面的问题可参考{% include a.html name='how-to-use' lang='cn' %}和{% include a.html name='command-line' lang='cn' %}页面
-
 # Working
 
 - 大重构，为2.0版本准备。[重构出的类库地址](https://github.com/XUJINKAI/XJKdotNetLibrary)

@@ -12,7 +12,7 @@ toc: false
 
 利用 OneQuick 增强、定制您的键鼠热键，操作更顺畅，拯救您的心情和时间。
 
-获取 OneQuick 是完全免费的，并且 OneQuick 的[核心功能]({% include get_link.html name='features' lang='cn' %})无任何限制。  
+获取 OneQuick 是完全免费的，并且 OneQuick 的核心功能无任何限制。  
 
 [专业版]({% include get_link.html name='pro' lang='cn' %})提供了更强大的自定义功能和开发中的实验性功能，供进阶用户使用。
 

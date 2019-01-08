@@ -14,7 +14,7 @@ permalink: /known-issues/
 
 # 请先排查
 
-- 据反馈，360会与OneQuick冲突。 [解决办法 #32](https://github.com/OneQuick/OneQuick.net/issues/32)
+- 据反馈，360会与OneQuick冲突。 [解决办法 #32](https://github.com/OneQuick/Feedback/issues/32)
 
 - 失效时：
 
@@ -62,15 +62,15 @@ permalink: /known-issues/
 
 ## 计划中
 
-- 自定义菜单，计划中。[#44](https://github.com/OneQuick/OneQuick.net/issues/44)
+- 自定义菜单，计划中。[#44](https://github.com/OneQuick/Feedback/issues/44)
 
-- 多步快捷键，计划中。[配置文件方式#35](https://github.com/OneQuick/OneQuick.net/issues/35)
+- 多步快捷键，计划中。[配置文件方式#35](https://github.com/OneQuick/Feedback/issues/35)
 
 ## 难以实现
 
 - 模拟/监听笔记本Fn键
 
-- 屏幕亮度 [#16](https://github.com/OneQuick/OneQuick.net/issues/16)
+- 屏幕亮度 [#16](https://github.com/OneQuick/Feedback/issues/16)
 
 ## 暂不考虑
 

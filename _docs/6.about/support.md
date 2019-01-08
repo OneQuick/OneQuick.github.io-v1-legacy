@@ -18,7 +18,7 @@ Discord 网页版群聊，欢迎加入: [https://discord.gg/YJ4Z9Cu](https://dis
 
 反馈bug、功能需求请先阅读{% include a.html name='known-issues' lang='cn' %}，并查询已有Issues，避免重复反馈。
 
-GitHub Issues 地址: [github.com/OneQuick/OneQuick.net/issues](https://github.com/OneQuick/OneQuick.net/issues)  
+GitHub Issues 地址: [github.com/OneQuick/Feedback/issues](https://github.com/OneQuick/Feedback/issues)  
 
 ## 必要信息
 

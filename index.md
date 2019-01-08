@@ -116,7 +116,7 @@ h2 {
 <footer class="footer">
     <div class="container">
         <p class="text-muted">
-            <span>© 2016 - 2018 OneQuick.org</span>
+            <span>© 2016 - 2019 OneQuick.org</span>
             <span class="float-right"><a href="https://github.com/OneQuick/OneQuick.github.io" target="_blank">hosted on GitHub</a></span>
         </p>
     </div>

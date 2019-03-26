@@ -13,7 +13,7 @@ permalink: /contribution/
 
 本站代码地址：<https://github.com/OneQuick/OneQuick.github.io>
 
-最简单的方式，将翻译发到 Issue 即可：<https://github.com/OneQuick/OneQuick.github.io/issues>
+在_docs目录下，即可看到本文档文本，将对应翻译发到 [Issues](https://github.com/OneQuick/OneQuick.github.io/issues) 即可
 
 
 ## 应用界面翻译

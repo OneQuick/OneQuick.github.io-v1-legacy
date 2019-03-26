@@ -9,12 +9,15 @@ permalink: /known-issues/
 
 - 大重构，为2.0版本准备。[重构出的类库地址](https://github.com/XUJINKAI/XJKdotNetLibrary)
 
-- 解决窗口弹出问题。
-
 
 # 请先排查
 
 - 据反馈，360会与OneQuick冲突。 [解决办法 #32](https://github.com/OneQuick/Feedback/issues/32)
+
+- 与Alt键有关的问题。  
+当监听或模拟的按键中存在Alt键时，容易出现一些问题。  
+如物理按键已松开但系统仍认为按下（即卡住），出现此问题可以手动按一下Alt键释放。  
+Alt键在系统中与其他按键略有不同，作者暂时无其他解决办法。  
 
 - 失效时：
 
@@ -30,7 +33,7 @@ permalink: /known-issues/
 
 # 已知Bug
 
-- 程序窗口自动弹出。  
+- ~~程序窗口自动弹出。~~  
 临时解决办法：为显示/隐藏界面的快捷键设置一个不常用的按键。
 
 - 复制搜索中，两下 Ctrl + C 的Ctrl要一直按住。

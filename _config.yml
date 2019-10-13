@@ -12,7 +12,7 @@ defaults:
     values:
       layout: docs
 
-exclude: ['serve.bat', 'generate.bat']
+exclude: ['*.bat', ".shellcommand.yaml"]
 
 stable-version: "1.2.5"
 

@@ -10,8 +10,6 @@ toc: false
 
 使用上的问题，及意见建议，可到[官方微博](http://weibo.com/onequick)留言及私信。微博还会发布限免信息，欢迎关注~
 
-Discord 网页版群聊，欢迎加入: [https://discord.gg/YJ4Z9Cu](https://discord.gg/YJ4Z9Cu)
-
 邮箱：[support@onequick.org](mailto:support@onequick.org)  
 
 # 反馈

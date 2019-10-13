@@ -1,0 +1,7 @@
+# ShellCommand: https://github.com/XUJINKAI/ShellCommand 
+
+- Command: http://127.0.0.1
+  Name: Browser
+
+- Command: jekyll s -H 0.0.0.0 -P 80
+  Name: jekyll serve

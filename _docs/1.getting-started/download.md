@@ -28,7 +28,7 @@ toc: false
 
 
 <p style="font-size: 18px; margin-top: 10px;">
-<a href="https://www.microsoft.com/store/apps/9pfn5k6qxt46">
+<a href="https://www.microsoft.com/zh-cn/p/onequick/9pfn5k6qxt46?activetab=pivot:overviewtab">
 	<img src="/img/ms-logo.png" style="height: 20px; margin: -3px 5px 0 6px;">
 	<span><cn>点击获取应用商店版</cn><en>Get in Microsoft Store</en></span>
 </a>

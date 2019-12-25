@@ -79,5 +79,4 @@ Alt键在系统中与其他按键略有不同，作者暂时无其他解决办�
 
 - 鼠标手势，暂不考虑。
 
-- 剪贴板历史：此功能与热键工具定位不符，已独立作为一款开源小工具上架应用商店。  
-商店链接[点此](https://www.microsoft.com/store/apps/9ND6WDNB4FW7)，源码地址：<https://github.com/XUJINKAI/Clipboards>。
+- 剪贴板历史：此功能与热键工具定位不符，且微软已有官方支持。
